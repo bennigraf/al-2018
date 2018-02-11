@@ -1,0 +1,38 @@
+<header class="main-header">
+    <navigation>
+        <ul>
+            <li>
+                {{- $linkURL := "/" }}
+                <a href="{{ $linkURL | relURL }}" title="Artists"
+                   class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                    Artists
+                </a>
+            </li>
+            <li>
+                <a href="https://alinaelumr-shop.de" title="Shop">Shop</a>
+            </li>
+            {{ ("/info" | relURL | printf "%#s" |  printf "%#T") }}
+            <li>
+                {{- $linkURL := "/info/" -}}
+                <a href="{{ $linkURL | relURL }}" title="Info"
+                   class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                    Info
+                </a>
+            </li>
+            <li>
+                {{- $linkURL := "/kontakt/" -}}
+                <a href="{{ $linkURL | relURL }}" title="Kontakt"
+                   class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                    Kontakt
+                </a>
+            </li>
+        </ul>
+    </navigation>
+    <div class="logo">
+        <h1>
+            <a href="{{ "/" | relURL }}">
+                <img src="{{ "/images/alinaelumr-logo.svg" | relURL }}" alt="alínæ lumr Festival">
+            </a>
+        </h1>
+    </div>
+</header>

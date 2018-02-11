@@ -1,6 +1,6 @@
 ---
 title: Lineup
-layout: lineup
+class: page-lineup
 ---
 
 The lineup...
