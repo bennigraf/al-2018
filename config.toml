@@ -1,0 +1,25 @@
+baseURL = "https://alinaelumr.de/"
+languageCode = "de-de"
+title = "alínæ lumr Festival 2018"
+
+theme = "al-2018"
+
+# doesn't work yet (hugo bug, see https://github.com/SiamKreative/siamkreative.com/issues/20)
+# leaving this here in case someone fixes this at some point...
+ignoreFiles = ['\\.scss$']
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[params]
+    description = "alínæ lumr Festival • 17. – 19. August 2018 • Storkow"
