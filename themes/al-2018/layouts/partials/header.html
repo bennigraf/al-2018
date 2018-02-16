@@ -26,4 +26,7 @@
 </head>
 
 <body class="{{ .Params.class }}">
-    {{ partial "navigation.html" . }}
+    <header class="main-header">
+        {{ partial "navigation.html" . }}
+        {{ partial "logo.html"}}
+    </header>

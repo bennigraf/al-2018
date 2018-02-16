@@ -1,9 +1,12 @@
-var gulp         = require("gulp"),
-    sass         = require("gulp-sass")
+var gulp = require("gulp"),
+    sass = require("gulp-sass"),
+    plumber = require('gulp-plumber');
+    // util         = require("gulp-util");
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
     gulp.src("themes/al-2018/static/scss/**/*.scss")
+        .pipe(plumber())
         .pipe(sass({
             // outputStyle : "compressed"
         }))
