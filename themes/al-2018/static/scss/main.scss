@@ -9,15 +9,13 @@ body {
     background-image: url(../images/al-bg-low.jpeg);
     background-repeat: no-repeat;
 	background-position: center center;
-    background-size: 100% auto;
+    // background-size: 100% auto;
     background-size: cover;
     background-attachment: fixed;
 
     @include MQ(M) {
         background-image: url(../images/al-bg-high-2.jpeg);
     }
-
-    
 }
 
 @import 'navigation+logo';
