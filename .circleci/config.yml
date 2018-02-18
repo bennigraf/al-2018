@@ -1,0 +1,24 @@
+version: 2
+jobs:
+  build:
+    # docker:
+    #   - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+      - run:
+          name: Print the Current Time
+          command: date
+      
+      # prepare for deployment
+      - run:
+        name: Fix host authenticity for elnath.uberspace.de
+        command: |
+          ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
+      
+      # "deploy"
+      - deploy:
+        name: copy to alu.uberspace.de
+        command: scp -r ./* alu@elnath.uberspace.de:~/website-2018-hugo/
