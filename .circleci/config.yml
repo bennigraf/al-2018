@@ -18,6 +18,8 @@ jobs:
           command: date
       
       - run: yarn install
+      - run: pwd
+      - run: find .
       - run: ./node_modules/bin/gulp scss
       
       # prepare for deployment
