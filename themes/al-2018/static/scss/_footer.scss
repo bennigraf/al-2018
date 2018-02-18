@@ -104,10 +104,23 @@ div.social {
 
     a {
         text-decoration: none;
-        padding: 0 6px;
+        padding: 0 2.5vw;
 
         img {
-            width: 30px;
+            width: 13vw;
+        }
+
+        @include MQ(M) {
+            padding: 0 .8vw;
+            img {
+                width: 4vw;
+            }
+        }
+        @include MQ(L) {
+            padding: 0 calc(#{$max-component-width} * 0.008);
+            img {
+                width: calc(#{$max-component-width} * 0.04);
+            }
         }
 
         &:hover {
