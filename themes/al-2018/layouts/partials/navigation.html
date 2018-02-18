@@ -2,11 +2,11 @@
     <ul>
         <li>
             {{- $linkURL := "/" }}
-            <a href="{{ $linkURL | relURL }}" title="Artists"
+            <a href="{{ $linkURL | relURL }}" title="Programm"
                 class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
-                <img src="{{ "/images/navigation/al-button-artist-inaktiv.svg" | relURL }}" 
-                        alt="Artists" />
-                <img src="{{ "/images/navigation/al-button-artist-aktiv.svg" | relURL }}" 
+                <img src="{{ "/images/navigation/al-button-programm-inaktiv.svg" | relURL }}" 
+                        alt="Programm" />
+                <img src="{{ "/images/navigation/al-button-programm-aktiv.svg" | relURL }}" 
                         class="active" style="display: none;" />
             </a>
         </li>
