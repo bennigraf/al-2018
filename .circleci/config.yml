@@ -3,7 +3,9 @@ jobs:
   build:
     docker:
       # - image: debian:stretch
-      - image: circleci/golang
+      # - image: circleci/golang
+      - image: circleci/node:8
+    
     steps:
       - checkout
       - run:
@@ -12,6 +14,9 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+      
+      - run: yarn install
+      - run: gulp scss
       
       # prepare for deployment
       - run:
