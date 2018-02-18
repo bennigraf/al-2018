@@ -1,18 +1,23 @@
 @import 'defaults';
 @import 'fonts';
+@import 'responsive';
 
 @import 'reset';
 
 body {
-    p {
-        font-weight: bold;
+    background-color: $color-beige;
+    background-image: url(../images/al-bg-low.jpeg);
+    background-repeat: no-repeat;
+	background-position: center center;
+    background-size: 100% auto;
+    background-size: cover;
+    background-attachment: fixed;
 
+    @include MQ(M) {
+        background-image: url(../images/al-bg-high-2.jpeg);
     }
 
-    background-color: $color-beige;
-    background-image: url(../images/al-bg-high-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    
 }
 
 @import 'navigation+logo';

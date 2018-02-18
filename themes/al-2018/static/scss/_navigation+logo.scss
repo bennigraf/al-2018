@@ -1,18 +1,53 @@
+// generally:
+// <M: two rows for navigation links
+// M-L: one row of nav links, scaling up with viewport
+// >L: fixed at max width
 header {
-    width: 95%;
-    max-width: 1100px;
-    margin: -9px auto;
+    width: 98vw;
+
+    @include MQ(M) {
+        width: 94vw;
+        max-width: calc(#{$max-component-width} * 0.94);
+        margin: -1vw auto;
+    }
+    
+    @include MQ(L) {
+        margin-top: -13px;
+    }
 
     ul li {
         float: left;
-        width: 25%;
+        width: 49vw;
+
+        @include IMQ(M) {
+            margin-bottom: -2.7vw;
+        }
+
+        @include MQ(M) {
+            width: 23.5vw;
+            max-width: calc(#{$max-component-width} * 0.235);
+        }
+
+        &:nth-child(even) a img {
+            margin-left: -1vw;
+        }
         
         a {
             text-decoration: none;
-
+            
             img {
-                width: 107%;
-                margin-left: -3.5%;
+                width: 52vw;
+                margin-left: -1vw;
+
+                @include MQ(M) {
+                    width: 25.5vw;
+                    max-width: calc(1100px * 0.255);
+                    margin-left: calc((25.5vw - 23.5vw) / -2); // this is -(img-width - li-width) / 2
+                }
+                @include MQ(L) {
+                    // calculated following the calculations from above, applied to `max-width`s
+                    margin-left: calc(((1100px * 0.255) - (1100px * 0.235)) / -2);
+                }
             }
         }
         
@@ -27,11 +62,17 @@ header {
     }
 
     h1 {
-        width: 32%;
         margin: 0 auto;
         clear: both;
-        padding-top: 20px;
-        
+        width: 75vw;
+        padding-top: 10vw;
+
+        @include MQ(M) {
+            width: 30vw;
+            max-width: calc(#{$max-component-width} * 0.3);    
+            padding-top: 20px;
+        }
+
         img {
             width: 100%;
         }
