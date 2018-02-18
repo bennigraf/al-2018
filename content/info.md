@@ -2,7 +2,6 @@
 title: Info
 class: page-info
 ---
-
 {{% page-column %}}
 ## Das Festival
 
@@ -23,6 +22,7 @@ Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen
 {{% /page-column %}}
 
 {{% page-column %}}
+
 ## Vor Ort
 
 ### Die Locations

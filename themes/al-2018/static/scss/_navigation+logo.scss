@@ -4,15 +4,19 @@
 // >L: fixed at max width
 header {
     width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5.4vw;
 
     @include MQ(M) {
         width: 94vw;
         max-width: calc(#{$max-component-width} * 0.94);
-        margin: -1vw auto;
+        margin-top: -1vw;
     }
     
     @include MQ(L) {
         margin-top: -13px;
+        margin-bottom: calc(#{$max-component-width} * 0.054);
     }
 
     ul li {
