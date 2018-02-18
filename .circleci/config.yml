@@ -19,8 +19,9 @@ jobs:
       
       - run: yarn install
       - run: pwd
-      - run: find .
+      # - run: find .
       - run: ./node_modules/.bin/gulp scss
+      - run: rm -rf ./node_modules
       
       # prepare for deployment
       - run:
