@@ -14,10 +14,10 @@ jobs:
           command: date
       
       # prepare for deployment
-      # - run:
-      #     name: Fix host authenticity for elnath.uberspace.de
-      #     command: |
-      #       ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
+      - run:
+          name: Fix host authenticity for elnath.uberspace.de
+          command: |
+            ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
       
       # "deploy"
       - deploy:
