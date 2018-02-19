@@ -8,10 +8,10 @@ body {
     background-color: $color-beige;
     background-image: url(../images/al-bg-low.jpeg);
     background-repeat: no-repeat;
-	background-position: center center;
-    // background-size: 100% auto;
-    background-size: cover;
+    background-size: 100%;
+    // background-size: cover;
     background-attachment: fixed;
+	background-position: 0% 0%;
 
     @include MQ(M) {
         background-image: url(../images/al-bg-high-2.jpeg);
