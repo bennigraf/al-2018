@@ -7,6 +7,10 @@ class: page-info page-columns
 
 alínæ lumr lädt ein zu einem ereignisreichen Urlaub auf dem Land. Auf der Burg, am Marktplatz, den Hinterhöfen, der Altstadtkirche, auf versteckten Wiesen und am See wartet ein sorgfältig kuratiertes Musikprogramm, Workshops, Theater, Lesungen und die charmante Altstadt Storkow auf euch. Wir möchten die Stadt öffnen und Orte des Zusammenkommens schaffen, auch um ein klares Zeichen für positiven Austausch und Willkommenskultur in der Region zu setzen.
 
+### Tickets
+
+Tickets für das alínæ lumr erhaltet ihr ausschließlich über unseren [Shop](https://alinaelumr-shop.de). 
+
 ### Musik
 
 Die Bands werden Freitag, Samstag und Sonntag spielen. Ein Timetable kommt im August.

@@ -17,10 +17,8 @@ Gitschiner Straße 95
 ### KONTAKT:
 
 [hej@alinaelumr.de](mailto:hej@alinaelumr.de)  
-Kontaktformular  
+[Kontaktformular](https://alinaelumr-shop.de/kontaktformular/)  
 Ihr wollt uns beim alínæ lumr als Helfer*innen unterstützen? Dann meldet euch unter [mitmachen@alinaelumr.de](mailto:mitmachen@alinaelumr.de).  
-Booking: [booking@alinaelumr.de](mailto:booking@alinaelumr.de)
-<br>
 <br>
 •  
 <br>
