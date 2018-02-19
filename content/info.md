@@ -1,6 +1,6 @@
 ---
 title: Info
-class: page-info
+class: page-info page-columns
 ---
 {{% page-column %}}
 ## Das Festival
