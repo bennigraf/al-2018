@@ -19,13 +19,16 @@ Auch wenn unser Festival in der Stadt stattfindet, könnt ihr bei uns zelten: au
 
 Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen bieten wir euch bis in die Nacht hinein an unseren Ständen im Foodcourt auf dem Marktplatz an, selbstverständlich auch vegetarisch und vegan.
 
+### Baden
+
+Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesagt die Badestelle „Karlslust“. Hier gibt es eine Liegewiese, Pommes und alles, was man sich sonst so wünscht. Eine Viertelstunde entfernt liegt das Strandbad: Das kostet ein bisschen Eintritt, aber dafür passt ein Bademeister auf euch (oder auf eure Kinder) auf. Wenn ihr ein Fahrrad dabei habt, seid ihr auch in 15 Minuten in Hubertushöhe oder Wolfswinkel – dort findet ihr weitere Badestellen, die sind auch sehr schön und (manchmal) sogar noch ein bisschen einsam.
+
 {{% /page-column %}}
 
 {{% page-column %}}
 
-## Vor Ort
+## Die Locations
 
-### Die Locations
 ### Die Burg
 
 Die Burg Storkow ist die älteste ihrer Art in Südostbrandenburg und das Zentrum und Herz des Festivals. Auf der Freilichtbühne des Burghofs spielt sich ein wichtiger Teil unseres Programms ab. Außerdem findet das Programm im anliegenden Burgsaal statt, der sich im wiederaufgebauten Renaissanceschloss befindet. Um die Burg herum laden Wiesen, schattige Bäume und kühle Felssteinmauern zum Verweilen, Lauschen und Rumknutschen ein.
@@ -49,10 +52,6 @@ Unter der Kuppel eines wunderschönen Weidendoms werden ebenfalls Konzerte statt
 ### Das Storchennest
 
 Gegenüber der Burg lockt eine lauschige Hör- und Spielwiese mit wundersamem Treiben. Entspannt euch unter schattigen Bäumen und in unserem gemütlichen Dome! 
-
-### Baden
-
-Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesagt die Badestelle „Karlslust“. Hier gibt es eine Liegewiese, Pommes und alles, was man sich sonst so wünscht. Eine Viertelstunde entfernt liegt das Strandbad: Das kostet ein bisschen Eintritt, aber dafür passt ein Bademeister auf euch (oder auf eure Kinder) auf. Wenn ihr ein Fahrrad dabei habt, seid ihr auch in 15 Minuten in Hubertushöhe oder Wolfswinkel – dort findet ihr weitere Badestellen, die sind auch sehr schön und (manchmal) sogar noch ein bisschen einsam.
 
 {{% /page-column %}}
 
