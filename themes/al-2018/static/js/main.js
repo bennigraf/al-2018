@@ -4,5 +4,5 @@ $(function() {
         return false;
     };
     $('a[title="Info"]').on('click', toggleSubnav);
-    $('a[title="Info"]').on('tap', toggleSubnav);
+    // $('a[title="Info"]').on('tap', toggleSubnav);
 });
