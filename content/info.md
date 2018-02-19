@@ -13,11 +13,11 @@ Die Bands werden Freitag, Samstag und Sonntag spielen. Ein Timetable kommt im Au
 
 ### Zelten
 
-Auch wenn unser Festival in der Stadt stattfindet, könnt ihr bei uns zelten: auf einer Wiese umgeben von Bäumen, ganz wie sich das für ein Festival gehört. Fürs Wohlfühlgefühl gibt es Toiletten und Duschen. Unser Zeltplatz befindet sich circa 5 Minuten Fußweg von der Burg und dem Markplatz entfernt. Das Zelten ist kostenlos, ab Freitagmittag dürft ihr kommen. Eure Autos könnt ihr auf dem Parkplatz neben dem Zeltplatz abstellen. Wohnmobile können mit auf den Parkplatz, jedoch nicht auf den Zeltplatz, genommen werden.
+Auch wenn unser Festival in der Stadt stattfindet, könnt ihr bei uns zelten: auf einer Wiese umgeben von Bäumen, ganz wie sich das für ein Festival gehört. Fürs Wohlfühlgefühl gibt es Toiletten und Duschen. Unser Zeltplatz befindet sich circa 5 Minuten Fußweg von der Burg und dem Markplatz entfernt. Das Zelten ist kostenlos, ab Freitagmittag dürft ihr kommen. Eure Autos könnt ihr auf dem Parkplatz neben dem Zeltplatz abstellen. Wohnmobile können mit auf den Parkplatz, jedoch nicht auf den Zeltplatz, genommen werden.
 
 ### Einkaufen & Essen
 
-Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen bieten wir euch bis in die Nacht hinein an unseren Ständen im Foodcourt auf dem Marktplatz an, selbstverständlich auch vegetarisch und vegan.
+Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen bieten wir euch bis in die Nacht hinein an unseren Ständen im Foodcourt auf dem Marktplatz an, selbstverständlich auch vegetarisch und vegan.
 
 {{% /page-column %}}
 
@@ -28,15 +28,15 @@ Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen
 ### Die Locations
 ### Die Burg
 
-Die Burg Storkow ist die älteste ihrer Art in Südostbrandenburg und das Zentrum und Herz des Festivals. Auf der Freilichtbühne des Burghofs spielt sich ein wichtiger Teil unseres Programms ab. Außerdem findet das Programm im anliegenden Burgsaal statt, der sich im wiederaufgebauten Renaissanceschloss befindet. Um die Burg herum laden Wiesen, schattige Bäume und kühle Felssteinmauern zum Verweilen, Lauschen und Rumknutschen ein.
+Die Burg Storkow ist die älteste ihrer Art in Südostbrandenburg und das Zentrum und Herz des Festivals. Auf der Freilichtbühne des Burghofs spielt sich ein wichtiger Teil unseres Programms ab. Außerdem findet das Programm im anliegenden Burgsaal statt, der sich im wiederaufgebauten Renaissanceschloss befindet. Um die Burg herum laden Wiesen, schattige Bäume und kühle Felssteinmauern zum Verweilen, Lauschen und Rumknutschen ein.
 
 ### Die Kirche
 
-Die Altstadtkirche ist die zweite Bühne in ehrwürdigem Gemäuer. Von dem Backsteingebäude aus dem 13. Jahrhundert sind es nur ungefähr 8 Minuten Fußweg zur Burg. Dabei passiert man die Altstadt und kommt praktischerweise an den anderen Locations, der Sparkasse und dem Eisladen vorbei. Läuft man etwas weiter, kommt man übrigens zur Klappbrücke, vor der man tolle Storkow-Urlaubsbilder schießen kann.
+Die Altstadtkirche ist die zweite Bühne in ehrwürdigem Gemäuer. Von dem Backsteingebäude aus dem 13. Jahrhundert sind es nur ungefähr 8 Minuten Fußweg zur Burg. Dabei passiert man die Altstadt und kommt praktischerweise an den anderen Locations, der Sparkasse und dem Eisladen vorbei. Läuft man etwas weiter, kommt man übrigens zur Klappbrücke, vor der man tolle Storkow-Urlaubsbilder schießen kann.
 
-### Am Mühlenfließ
+### Am Mühlenfließ
 
-Auf halber Strecke zwischen Burg und Kirche überquert ihr einen kleinen Bach, das Storkower Mühlenfließ, an dem sich ein verwunschener Garten befindet. Hier, auf dem Gelände einer ehemaligen Schmiede, richten wir ebenfalls eine kleine Bühne ein.
+Auf halber Strecke zwischen Burg und Kirche überquert ihr einen kleinen Bach, das Storkower Mühlenfließ, an dem sich ein verwunschener Garten befindet. Hier, auf dem Gelände einer ehemaligen Schmiede, richten wir ebenfalls eine kleine Bühne ein.
 
 ### Der Marktplatz
 
@@ -52,7 +52,7 @@ Gegenüber der Burg lockt eine lauschige Hör- und Spielwiese mit wundersamem Tr
 
 ### Baden
 
-Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesagt die Badestelle „Karlslust“. Hier gibt es eine Liegewiese, Pommes und alles, was man sich sonst so wünscht. Eine Viertelstunde entfernt liegt das Strandbad: Das kostet ein bisschen Eintritt, aber dafür passt ein Bademeister auf euch (oder auf eure Kinder) auf. Wenn ihr ein Fahrrad dabei habt, seid ihr auch in 15 Minuten in Hubertushöhe oder Wolfswinkel – dort findet ihr weitere Badestellen, die sind auch sehr schön und (manchmal) sogar noch ein bisschen einsam.
+Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesagt die Badestelle „Karlslust“. Hier gibt es eine Liegewiese, Pommes und alles, was man sich sonst so wünscht. Eine Viertelstunde entfernt liegt das Strandbad: Das kostet ein bisschen Eintritt, aber dafür passt ein Bademeister auf euch (oder auf eure Kinder) auf. Wenn ihr ein Fahrrad dabei habt, seid ihr auch in 15 Minuten in Hubertushöhe oder Wolfswinkel – dort findet ihr weitere Badestellen, die sind auch sehr schön und (manchmal) sogar noch ein bisschen einsam.
 
 {{% /page-column %}}
 
@@ -68,29 +68,29 @@ Mitfahrgelegenheiten zum Festival findet ihr bei [fahrfahraway](https://fahrfahr
 
 Wenn ihr aus Berlin kommt, nehmt ihr die A113, das Adlergestell, die Frankfurter Allee (B5) oder eine andere Ausfahrt eures Vertrauens und fahrt raus aus der Stadt auf den südlichen Berliner Ring A10 Richtung Frankfurt/Oder. Am Dreieck Spreeau fahrt ihr auf die A12 in Richtung Frankfurt/Oder. Da die Abfahrt Storkow aktuell noch gesperrt ist, fahrt ihr schon in Friedersdorf ab und von dort nach Storkow.
 
-In Storkow fahrt ihr immer schön geradeaus in Richtung Burg. Dabei überquert ihr Ampelkreuzung #1. Auf der linken Seite befindet sich dann nach circa 5 Minuten (direkt vor Ampelkreuzung #2 und hinter der Kanal-Brücke) der Park- und Zeltplatz (Schloßstraße).
+In Storkow fahrt ihr immer schön geradeaus in Richtung Burg. Dabei überquert ihr Ampelkreuzung #1. Auf der linken Seite befindet sich dann nach circa 5 Minuten (direkt vor Ampelkreuzung #2 und hinter der Kanal-Brücke) der Park- und Zeltplatz (Schloßstraße).
 
-Wenn ihr aus Richtung Cottbus/Dresden kommt, erreicht ihr die Stadt ebenfalls über die A13. Nehmt die Abfahrt Storkow und die B246 führt euch geradewegs in die Stadt. Dort müsst ihr einmal links Richtung Fürstenwalde abbiegen (auf die Burgstraße), über eine Ampelkreuzung fahren und schon liegt auf der rechten Seite der Park- und Zeltplatz (Schloßstraße).
+Wenn ihr aus Richtung Cottbus/Dresden kommt, erreicht ihr die Stadt ebenfalls über die A13. Nehmt die Abfahrt Storkow und die B246 führt euch geradewegs in die Stadt. Dort müsst ihr einmal links Richtung Fürstenwalde abbiegen (auf die Burgstraße), über eine Ampelkreuzung fahren und schon liegt auf der rechten Seite der Park- und Zeltplatz (Schloßstraße).
 
 ### Bahn
 
 (ca. 1 Stunde von Berlin Alexanderplatz)
-Wenn ihr in Berlin losfahrt, nehmt ihr die Ostdeutsche Eisenbahn (ODEG) Richtung Cottbus oder die S46 Richtung Königs Wusterhausen. In beiden Fällen steigt ihr in Königs Wusterhausen aus bzw. um. Ab hier fahrt ihr mit der Niederbarnimer Eisenbahn (NEB) Richtung Frankfurt/Oder: Bis Storkow dauert die Fahrt 24 Minuten. Ab dem Storkower Bahnhof folgt ihr den Wegweisern; es sind 15 Minuten Fußweg zum Festivalgelände.
+Wenn ihr in Berlin losfahrt, nehmt ihr die Ostdeutsche Eisenbahn (ODEG) Richtung Cottbus oder die S46 Richtung Königs Wusterhausen. In beiden Fällen steigt ihr in Königs Wusterhausen aus bzw. um. Ab hier fahrt ihr mit der Niederbarnimer Eisenbahn (NEB) Richtung Frankfurt/Oder: Bis Storkow dauert die Fahrt 24 Minuten. Ab dem Storkower Bahnhof folgt ihr den Wegweisern; es sind 15 Minuten Fußweg zum Festivalgelände.
 
 ## Ausflugstipps
 
 ### Mit Bahn & Rad
 
-Wenn man aus Berlin mit der S-Bahn oder dem Regionalexpress nach Erkner fährt, kann man von dort eine sehr schöne, circa 2 Stunden lange Fahrradtour über Spreeau, Spreenhagen und Markgrafpieske nach Storkow unternehmen.
+Wenn man aus Berlin mit der S-Bahn oder dem Regionalexpress nach Erkner fährt, kann man von dort eine sehr schöne, circa 2 Stunden lange Fahrradtour über Spreeau, Spreenhagen und Markgrafpieske nach Storkow unternehmen.
 
 ### Irrlandia
 
-Der MitMachPark Irrlandia im Storkower Stadtteil Neu-Boston ist mit dem Fahrrad nur fünf Minuten vom Zeltplatz entfernt. Der Park lädt alle Großen und Kleinen mit einem Maislabyrinth, einer Trampolinanlage, einer Wasserbombenwurfanlage (!) und Vielem mehr zum Verirren, Spielen, Klettern, Rutschen, Schaukeln, Hopsen, Bauen und Basteln, Matschen und Werfen ein. Und das Beste: alínæ lumr-Besucher*innen erhalten beim Vorzeigen ihres Festivalbändchens freien Eintritt.
+Der MitMachPark Irrlandia im Storkower Stadtteil Neu-Boston ist mit dem Fahrrad nur fünf Minuten vom Zeltplatz entfernt. Der Park lädt alle Großen und Kleinen mit einem Maislabyrinth, einer Trampolinanlage, einer Wasserbombenwurfanlage (!) und Vielem mehr zum Verirren, Spielen, Klettern, Rutschen, Schaukeln, Hopsen, Bauen und Basteln, Matschen und Werfen ein. Und das Beste: alínæ lumr-Besucher*innen erhalten beim Vorzeigen ihres Festivalbändchens freien Eintritt.
 
 ### Markus’ Freizeit-Tipps
 
-Außerdem gibt es in der Nähe noch eine Menge mehr zu sehen: Die größten Binnendünen Brandenburgs findet ihr in den Waltersbergen am Rand von Storkow. Die sind 69 Meter hoch – das ist für Brandenburg der Mount Everest! Am Tag wird der Sandboden hier auf bis zu 70 °C aufgeheizt; in der Nacht kühlt er stark ab. Wenn man durch den Wald auf den großen Sandhügel gelaufen ist, kann man auf den See gucken und zahlreiche seltene Tierarten beobachten, z.B. Ameisenbären, die in kleinen Erdlöchern auf Beute lauern.
+Außerdem gibt es in der Nähe noch eine Menge mehr zu sehen: Die größten Binnendünen Brandenburgs findet ihr in den Waltersbergen am Rand von Storkow. Die sind 69 Meter hoch – das ist für Brandenburg der Mount Everest! Am Tag wird der Sandboden hier auf bis zu 70 °C aufgeheizt; in der Nacht kühlt er stark ab. Wenn man durch den Wald auf den großen Sandhügel gelaufen ist, kann man auf den See gucken und zahlreiche seltene Tierarten beobachten, z.B. Ameisenbären, die in kleinen Erdlöchern auf Beute lauern.
 
-Storkow ist das Tor zum Naturpark Dahme-Heide-Seen (südwestlich der Stadt). Den Naturpark könnt ihr von hier aus über den Salzweg wandernderweise oder mit dem Fahrrad rund um die Groß Schauener Seenkette erkunden. Hier gibt es mehr als 100 Seen, schier endlos scheinende Wälder (die trockenen Kiefernwälder nennt man hier Heiden) und garantiert keinen Menschen. Nur Rotbauchunken, Orchideen und Seeadler.
+Storkow ist das Tor zum Naturpark Dahme-Heide-Seen (südwestlich der Stadt). Den Naturpark könnt ihr von hier aus über den Salzweg wandernderweise oder mit dem Fahrrad rund um die Groß Schauener Seenkette erkunden. Hier gibt es mehr als 100 Seen, schier endlos scheinende Wälder (die trockenen Kiefernwälder nennt man hier Heiden) und garantiert keinen Menschen. Nur Rotbauchunken, Orchideen und Seeadler.
 
 {{% /page-column %}}
