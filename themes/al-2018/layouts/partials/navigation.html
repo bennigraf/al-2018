@@ -27,6 +27,40 @@
                 <img src="{{ "/images/navigation/al-button-info-aktiv.svg" | relURL }}" 
                     class="active" style="display: none;" />
             </a>
+            <ul class="inactive">
+                <li>
+                    <a href="{{ $linkURL | relURL}}" title="Festival">
+                        <img src="{{ "/images/navigation/al-button-festival-inaktiv.svg" | relURL }}" 
+                             alt="Festival" />
+                        <img src="{{ "/images/navigation/al-button-festival-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ $linkURL | relURL}}" title="Locations">
+                        <img src="{{ "/images/navigation/al-button-vorort-inaktiv.svg" | relURL }}" 
+                             alt="Locations" />
+                        <img src="{{ "/images/navigation/al-button-vorort-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ $linkURL | relURL}}" title="Anfahrt">
+                        <img src="{{ "/images/navigation/al-button-anfahrt-inaktiv.svg" | relURL }}" 
+                             alt="Anfahrt" />
+                        <img src="{{ "/images/navigation/al-button-anfahrt-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "/vorort" | relURL}}" title="Vor Ort">
+                        <img src="{{ "/images/navigation/al-button-vorort-inaktiv.svg" | relURL }}" 
+                             alt="Vor Ort" />
+                        <img src="{{ "/images/navigation/al-button-vorort-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+            </ul>
         </li>
         <li>
             {{- $linkURL := "/kontakt/" -}}
