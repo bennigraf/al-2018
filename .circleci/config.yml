@@ -32,7 +32,8 @@ jobs:
       # "deploy"
       - deploy:
           name: copy to alu.uberspace.de
-          command: scp -r ./* alu@elnath.uberspace.de:~/website-2018-hugo/
+          # command: scp -r ./* alu@elnath.uberspace.de:~/website-2018-hugo/
+          command: rsync -rlOz --force --delete ./* alu@elnath.uberspace.de:~/website-2018-hugo/
       
       # restart hugo serve
       - run:
