@@ -4,6 +4,7 @@
 // >L: fixed at max width
 header {
     width: 98vw;
+    margin-top: -1.5vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5.4vw;
@@ -19,6 +20,13 @@ header {
         margin-bottom: calc(#{$max-component-width} * 0.054);
     }
 
+    // on small screens, move the two right nav items to the left a little
+    @include IMQ(M) {
+        nav > ul > li:nth-child(even) > a > img {
+            margin-left: -1vw;
+        }
+    }
+
     ul li {
         float: left;
         width: 49vw;
@@ -26,10 +34,6 @@ header {
 
         @include IMQ(M) {
             margin-bottom: -2.7vw;
-
-            &:nth-child(even) a img {
-                margin-left: -1vw;
-            }
         }
 
         @include MQ(M) {
@@ -41,8 +45,7 @@ header {
             text-decoration: none;
             
             img {
-                width: 52vw;
-                margin-left: -1vw;
+                width: 50vw;
 
                 @include MQ(M) {
                     width: 25.5vw;
@@ -72,22 +75,25 @@ header {
             }
             
             position: absolute;
-            margin-top: -3.5vw;
+            margin-top: -3.1vw;
 
             li {
                 display: block;
                 // border: 1px solid red;
                 height: 12.7vw;
-                margin-left: -0.4vw;
+                margin-top: -.35vw;
 
-                &:nth-child(2) { margin-left: -0.8vw; }
-                &:nth-child(3) { margin-left: -1.2vw; }
-                &:nth-child(4) { margin-left: -1.6vw; }
+                $ma-left: -0.6vw;
+                margin-left: $ma-left;
+                &:nth-child(2) { margin-left: calc(#{$ma-left} * 2); }
+                &:nth-child(3) { margin-left: calc(#{$ma-left} * 3); }
+                &:nth-child(4) { margin-left: calc(#{$ma-left} * 4); }
             }
 
             @include MQ(M) {
                 margin-top: -1.85vw;
                 li {
+                    margin-top: 0.1vw;
                     height: 4.8vw;
                 }
             }
@@ -97,10 +103,10 @@ header {
                 margin-top: calc(#{$max-component-width} * -0.0185);
                 li {
                     height: calc(#{$max-component-width} * 0.048);
-                    margin-left: calc(#{$max-component-width} * -0.004);
-                    &:nth-child(2) { margin-left: calc(#{$max-component-width} * -0.008); }
-                    &:nth-child(3) { margin-left: calc(#{$max-component-width} * -0.012); }
-                    &:nth-child(4) { margin-left: calc(#{$max-component-width} * -0.016); }
+                    margin-left: calc(#{$max-component-width} * -0.006);
+                    &:nth-child(2) { margin-left: calc(#{$max-component-width} * -0.012); }
+                    &:nth-child(3) { margin-left: calc(#{$max-component-width} * -0.018); }
+                    &:nth-child(4) { margin-left: calc(#{$max-component-width} * -0.024); }
                 }
             }
         }
