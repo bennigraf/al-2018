@@ -10,18 +10,10 @@ jobs:
 
     steps:
       - run: sudo apt install rsync
-      
+
       - checkout
-      - run:
-          name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Print the Current Time
-          command: date
       
       - run: yarn install
-      # - run: pwd
-      # - run: find .
       - run: ./node_modules/.bin/gulp scss
       - run: rm -rf ./node_modules
       
