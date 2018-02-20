@@ -31,7 +31,7 @@ Programmierung: [Benjamin Graf](https://bennigraf.de)
 
 ## Presse
 
-Liebe Journalist*innen, Blogger*innen und Fotograf*innen, auf unserer Seite und in unserem downloadbaren Pressekit findet ihr alle wichtigen Informationen zum Festival. Solltet ihr weitere Fragen haben, meldet euch gern!
+Liebe Journalist*innen, Blogger*innen und Fotograf*innen, auf unserer Seite und in unserem [downloadbaren Pressekit](pressekit.zip) findet ihr alle wichtigen Informationen zum Festival. Solltet ihr weitere Fragen haben, meldet euch gern!
 
 Eure Ansprechpartnerin ist: Laureen [presse@alinaelumr.de](mailto:presse@alinaelumr.de)
 
