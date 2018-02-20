@@ -1,17 +1,12 @@
 {{ partial "header.html" . }}
-    
-    <div class="content-wrapper">
-        <div class="text-page">
-            Home page content:
-            {{ .Content }}
-            
-            {{ range $.Site.Data.bands }}
-                {{ .name }}
-            {{ end }}
-            <br>
-            <img src="http://via.placeholder.com/1350x650" width="96%"
-                style="opacity: 0.8; margin: 2%">
-        </div>
-    </div>
+
+<main>
+    {{ .Content }}
+    {{/*
+    {{ range .Site.Data.bands }}
+        {{ .name }}
+    {{ end }}
+    */}}
+</main>
         
 {{ partial "footer.html" . }}
