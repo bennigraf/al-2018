@@ -35,6 +35,6 @@ jobs:
           command: scp -r ./* alu@elnath.uberspace.de:~/website-2018-hugo/
       
       # restart hugo serve
-      - restart-hugo:
+      - run:
           name: Restart hugo serve
           command: ssh alu@elnath.uberspace.de "svc -h ~/service/al-2018-hugo/"
