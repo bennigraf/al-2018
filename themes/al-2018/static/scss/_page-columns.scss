@@ -105,7 +105,7 @@ main {
 
         @include MQ(L) {
             font-size: calc(#{$max-component-width} * 0.014);
-            margin-bottom: calc(#{$max-component-width} * 0.004);
+            margin-bottom: calc(#{$max-component-width} * 0.018);
         }
 
         a {
@@ -113,6 +113,20 @@ main {
 
             &:hover {
                 text-decoration: none;
+            }
+        }
+
+        img {
+            width: 100%;
+
+            @include MQ(M) {
+                width: calc(100% + 2.6vw);
+                margin-left: -1.3vw;
+            }
+
+            @include MQ(L) {
+                margin-left: calc(#{$max-component-width} * -0.013);
+                width: calc(100% + #{$max-component-width} * 0.013 * 2);
             }
         }
     }

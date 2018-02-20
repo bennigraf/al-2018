@@ -19,6 +19,8 @@ Die Bands werden Freitag, Samstag und Sonntag spielen. Ein Timetable kommt im Au
 
 Auch wenn unser Festival in der Stadt stattfindet, könnt ihr bei uns zelten: auf einer Wiese umgeben von Bäumen, ganz wie sich das für ein Festival gehört. Fürs Wohlfühlgefühl gibt es Toiletten und Duschen. Unser Zeltplatz befindet sich circa 5 Minuten Fußweg von der Burg und dem Markplatz entfernt. Das Zelten ist kostenlos, ab Freitagmittag dürft ihr kommen. Eure Autos könnt ihr auf dem Parkplatz neben dem Zeltplatz abstellen. Wohnmobile können mit auf den Parkplatz, jedoch nicht auf den Zeltplatz, genommen werden.
 
+![Zelten](/images/info-01.jpg)
+
 ### Einkaufen & Essen
 
 Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen bieten wir euch bis in die Nacht hinein an unseren Ständen im Foodcourt auf dem Marktplatz an, selbstverständlich auch vegetarisch und vegan.
@@ -26,6 +28,8 @@ Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen 
 ### Baden
 
 Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesagt die Badestelle „Karlslust“. Hier gibt es eine Liegewiese, Pommes und alles, was man sich sonst so wünscht. Eine Viertelstunde entfernt liegt das Strandbad: Das kostet ein bisschen Eintritt, aber dafür passt ein Bademeister auf euch (oder auf eure Kinder) auf. Wenn ihr ein Fahrrad dabei habt, seid ihr auch in 15 Minuten in Hubertushöhe oder Wolfswinkel – dort findet ihr weitere Badestellen, die sind auch sehr schön und (manchmal) sogar noch ein bisschen einsam.
+
+![Alinae Lumr 2017](/images/info-02.jpg)
 
 {{% /page-column %}}
 
@@ -36,6 +40,8 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 ### Die Burg
 
 Die Burg Storkow ist die älteste ihrer Art in Südostbrandenburg und das Zentrum und Herz des Festivals. Auf der Freilichtbühne des Burghofs spielt sich ein wichtiger Teil unseres Programms ab. Außerdem findet das Programm im anliegenden Burgsaal statt, der sich im wiederaufgebauten Renaissanceschloss befindet. Um die Burg herum laden Wiesen, schattige Bäume und kühle Felssteinmauern zum Verweilen, Lauschen und Rumknutschen ein.
+
+![Die Burg](/images/info-03.jpg)
 
 ### Die Kirche
 
