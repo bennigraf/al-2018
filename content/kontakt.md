@@ -22,7 +22,7 @@ Ihr wollt uns beim alínæ lumr als Helfer*innen unterstützen? Dann meldet euch
 <br>
 •  
 <br>
-Konzept und Gestaltung: [GHOSTWORK](http://www.ghostwork.de/)  
+Konzept und Gestaltung: [S K R U V V](https://www.instagram.com/s_k_r_u_v_v)  
 Programmierung: [Benjamin Graf](https://bennigraf.de)
 
 {{% /page-column %}}
