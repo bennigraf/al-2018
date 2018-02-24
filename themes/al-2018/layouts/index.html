@@ -1,12 +1,7 @@
-{{ partial "header.html" . }}
-
-<main>
-    {{ .Content }}
-    {{/*
+{{ define "main" }}
+<section>
     {{ range .Site.Data.bands }}
         {{ .name }}
     {{ end }}
-    */}}
-</main>
-        
-{{ partial "footer.html" . }}
+</section>
+{{ end }}

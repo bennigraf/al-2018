@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        {{ partial "header.html" . }}
+    </head>
+    <body class="{{ .Params.class }}">
+        <header class="main-header">
+            {{ partial "navigation.html" . }}
+            {{ partial "logo.html"}}
+        </header>
+
+        <main>
+            {{ block "main" . }}
+                <!-- The part of the page that begins to differ between templates -->
+            {{ end }}
+        </main>
+
+        {{ partial "footer.html" . }}
+        <script src="{{ "/js/zepto.min.js" | relURL }}" type="text/javascript" ></script>
+        <script src="{{ "/js/main.js" | relURL }}" type="text/javascript" ></script>
+    </body>
+</html>
