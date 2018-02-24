@@ -1,8 +1,7 @@
+@import 'reset';
+@import 'responsive';
 @import 'defaults';
 @import 'fonts';
-@import 'responsive';
-
-@import 'reset';
 
 body {
     background-color: $color-beige;
@@ -20,5 +19,5 @@ body {
 
 @import 'navigation+logo';
 @import 'footer';
+@import 'page-bands';
 @import 'page-columns';
-@import 'page-info';

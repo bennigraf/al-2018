@@ -6,12 +6,26 @@ nav.footer, div.social {
         max-width: calc(#{$max-component-width} * 0.94);
     }
     margin: auto;
+
+    clear: both;
 }
 
 // spacing between elements
-nav.footer { margin-bottom: 30px; }
-#mc_embed_signup { margin-bottom: 30px; }
-div.social { margin-bottom: 35px; }
+nav.footer { 
+    // padding-top instead of margin to make sure it works after floated elements
+    padding-top: 2vw;
+    margin-bottom: 30px;
+
+    @include MQ(L) {
+        padding-top: calc(#{$max-component-width} * 0.02);
+    }
+}
+#mc_embed_signup { 
+    margin-bottom: 30px; 
+}
+div.social { 
+    margin-bottom: 35px; 
+}
 
 
 nav.footer {

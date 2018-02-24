@@ -1,0 +1,42 @@
+.page-lineup main {
+    @extend %main-container;
+}
+
+section.bands {
+    // display: flex;
+
+    .a-band {
+        width: calc(96vw/3);
+        max-width: calc(#{$max-component-width} * (0.96/3));
+
+        height: calc(96vw/3 - 6vw);
+        max-height: calc(#{$max-component-width} * (0.96/3 - 0.06));
+
+        float: left;
+        // overflow: hidden;
+
+        img {
+            display: block;
+            width: calc(96vw/3 - 1vw);
+            max-width: calc(#{$max-component-width} * (0.96/3 - 0.01));
+
+            margin: 0.5vw;
+            @include MQ(L) {
+                margin: calc(#{$max-component-width} * 0.005);
+            }
+        }
+
+        .description img {
+            display: none;
+        }
+        
+        &:hover, &.hover {
+            img {
+                display: none;
+            }
+            .description img {
+                display: block;
+            }
+        }
+    }
+}

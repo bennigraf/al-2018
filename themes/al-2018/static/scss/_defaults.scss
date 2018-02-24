@@ -14,3 +14,12 @@ $color-beige-dark: #fdaa80;
 $color-turquoise: #19c7bd;
 $color-yellow: #fee042;
 $color-brown: #c66a5b;
+
+// the default centered container with a certain width
+%main-container {
+    width: 96vw;
+    @include MQ(M) {
+        max-width: calc(#{$max-component-width} * 0.96);
+    }
+    margin: auto;
+}

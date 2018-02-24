@@ -1,7 +1,8 @@
 {{ define "main" }}
-<section>
+<section class="bands">
+    {{/* printf "%#v" (.Site.Data) */}}
     {{ range .Site.Data.bands }}
-        {{ .name }}
+        {{ partial "a-band.html" . }}
     {{ end }}
 </section>
 {{ end }}

@@ -1,16 +1,12 @@
-main {
+.page-columns main {
     // There's a strange hugo bug that generates empty `<p>`s when using shortcodes:
     // https://github.com/gohugoio/hugo/issues/1642
     // This works around that bug.
     &> p {
         display: none;
     }
-    width: 96vw;
-
-    @include MQ(M) {
-        max-width: calc(#{$max-component-width} * 0.96);
-    }
-    margin: auto;
+    
+    @extend %main-container;
 
     @include MQ(M) {
         display: flex;
