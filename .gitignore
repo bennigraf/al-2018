@@ -1,4 +1,4 @@
-data/*.json
+# data/*.json
 
 node_modules
 themes/hugo-classic
