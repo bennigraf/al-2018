@@ -7,13 +7,11 @@ class: page-vorort page-columns
 
 ## Vor Ort
 
-Karte und Zeltplan kommen später und sind dann hier zu finden.
-
 ### Festordnung für das Alínæ Lumr Festival 2018
 
 - 1. Rücksichtnahme, Toleranz, Respekt und gegenseitige Hilfe und Unterstützung sind Grundwerte, die wir leben möchten und uns auch von allen Beteiligten beim Festival wünschen. Hingegen wird bei uns rassistisches, sexistisches, trans-/ homo-/ queerfeindliches und anderes diskriminierendes Verhalten nicht toleriert. Als Veranstalter*innen behalten wir uns in solchen Fällen den Ausschluss vom Festival vor.
 - 2. Das Sicherheitspersonal unterstützt uns dabei, das Festival für alle Beteiligten sicher zu machen. Wir bitten euch daher, die Anweisungen des Sicherheitspersonals zu befolgen.
-- 3. Zelt- und Parkplatz dürfen ab Freitag, den 25. August 2017, 10 Uhr und bis Sonntag, den 27. August 2017, 21 Uhr genutzt werden.
+- 3. Zelt- und Parkplatz dürfen ab Freitag, den 17. August 2018, 10 Uhr und bis Sonntag, den 19. August 2018, 21 Uhr genutzt werden.
 - 4. Die Nutzung der Zelt- und Parkmöglichkeiten des alínæ lumr Festivals ist Festivalbesucher*innen mit einer gültigen Eintrittskarte bzw. einem Festivalbändchen vorbehalten.
 - 5. Das Aufstellen von Wohnwagen, Wohnmobilen u.ä. ist nur auf dem Parkplatz gestattet.
 - 6. Beachtet beim Aufstellen der Zelte die Einhaltung der Rettungs- und Fahrwege sowie Sicherheitsabstände zu Grillplätzen o.ä.

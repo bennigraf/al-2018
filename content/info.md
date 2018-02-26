@@ -73,7 +73,7 @@ Gegenüber der Burg lockt eine lauschige Hör- und Spielwiese mit wundersamem Tr
 
 (von Berlin-Zentrum ca. 1 Stunde)
 
-Mitfahrgelegenheiten zum Festival findet ihr bei [fahrfahraway](https://fahrfahraway.com/). Habt ihr selbst noch Platz in eurem Auto frei, könnt ihr diesen dort ebenfalls anbieten.
+Mitfahrgelegenheiten zum Festival findet ihr bei [fahrfahraway](https://fahrfahraway.com/event/1827-alinae-lumr-festival). Habt ihr selbst noch Platz in eurem Auto frei, könnt ihr diesen dort ebenfalls anbieten.
 
 Wenn ihr aus Berlin kommt, nehmt ihr die A113, das Adlergestell, die Frankfurter Allee (B5) oder eine andere Ausfahrt eures Vertrauens und fahrt raus aus der Stadt auf den südlichen Berliner Ring A10 Richtung Frankfurt/Oder. Am Dreieck Spreeau fahrt ihr auf die A12 in Richtung Frankfurt/Oder. Da die Abfahrt Storkow aktuell noch gesperrt ist, fahrt ihr schon in Friedersdorf ab und von dort nach Storkow.
 
