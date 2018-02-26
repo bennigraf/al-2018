@@ -1,12 +1,12 @@
 <nav class="footer">
     <ul>
         <li>
-            {{- $linkURL := "/presse/" -}}
-            <a href="{{ $linkURL | relURL }}" title="Presse"
+            {{- $linkURL := "/kontakt/" -}}
+            <a href="{{ $linkURL | relURL }}" title="Kontakt"
                 class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
-                <img src="{{ "/images/navigation/al-button-presse-inaktiv.svg" | relURL }}" 
-                        alt="Presse" />
-                <img src="{{ "/images/navigation/al-button-presse-aktiv.svg" | relURL }}" 
+                <img src="{{ "/images/navigation/al-button-kontakt-inaktiv.svg" | relURL }}" 
+                        alt="Kontakt" />
+                <img src="{{ "/images/navigation/al-button-kontakt-aktiv.svg" | relURL }}" 
                         class="active" style="display: none;" />
             </a>
         </li>
