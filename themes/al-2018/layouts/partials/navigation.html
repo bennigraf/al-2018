@@ -10,6 +10,7 @@
                         class="active" style="display: none;" />
             </a>
         </li>
+
         <li>
             <a href="https://alinaelumr-shop.de" title="Shop">
                 <img src="{{ "/images/navigation/al-button-shop-inaktiv.svg" | relURL }}" 
@@ -18,6 +19,7 @@
                         class="active" style="display: none;" />
             </a>
         </li>
+
         <li>
             {{- $linkURL := "/info/" -}}
             <a href="{{ $linkURL | relURL }}" title="Info"
@@ -62,15 +64,41 @@
                 </li>
             </ul>
         </li>
+
         <li>
-            {{- $linkURL := "/kontakt/" -}}
-            <a href="{{ $linkURL | relURL }}" title="Kontakt"
-                class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
-                <img src="{{ "/images/navigation/al-button-kontakt-inaktiv.svg" | relURL }}" 
-                    alt="Kontakt" />
-                <img src="{{ "/images/navigation/al-button-kontakt-aktiv.svg" | relURL }}" 
+            {{- $linkURL := "#" -}}
+            <a href="{{ $linkURL | relURL }}" title="Rückblick">
+                <img src="{{ "/images/navigation/al-button-rueckblick-inaktiv.svg" | relURL }}" 
+                    alt="Rückblick" />
+                <img src="{{ "/images/navigation/al-button-rueckblick-aktiv.svg" | relURL }}" 
                     class="active" style="display: none;" />
             </a>
+            <ul class="inactive">
+                <li>
+                    <a href="{{ "/2017/" | relURL}}" title="2017">
+                        <img src="{{ "/images/navigation/al-button-2017-inaktiv.svg" | relURL }}" 
+                                alt="2017" />
+                        <img src="{{ "/images/navigation/al-button-2017-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "/2016/" | relURL}}" title="2016">
+                        <img src="{{ "/images/navigation/al-button-2016-inaktiv.svg" | relURL }}" 
+                                alt="2016" />
+                        <img src="{{ "/images/navigation/al-button-2016-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "/2015/" | relURL}}" title="2015">
+                        <img src="{{ "/images/navigation/al-button-2015-inaktiv.svg" | relURL }}" 
+                                alt="2015" />
+                        <img src="{{ "/images/navigation/al-button-2015-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li>
+            </ul>
         </li>
     </ul>
 </nav>
