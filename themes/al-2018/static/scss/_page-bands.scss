@@ -3,39 +3,69 @@
 }
 
 section.bands {
-    // display: flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 8vw;
+    margin-bottom: 2vw;
+
+    @include MQ(M) {
+        margin-top: 5vw;
+    }
+    @include MQ(L) {
+        margin-top: calc(#{$max-component-width} * 0.08);
+        margin-bottom: calc(#{$max-component-width} * 0.02);
+    }
 
     .a-band {
-        width: calc(96vw/3);
-        max-width: calc(#{$max-component-width} * (0.96/3));
+        width: 96vw;
 
-        height: calc(96vw/3 - 6vw);
-        max-height: calc(#{$max-component-width} * (0.96/3 - 0.06));
+        img {
+            width: 100%;
+            max-width: 100%;
+        }
 
-        float: left;
-        // overflow: hidden;
+        @include MQ(M) {
+            // float: left;
+            width: calc(96vw/3);
+            max-width: calc(#{$max-component-width} * (0.96/3));
+            // height: calc(96vw/3 - 6vw);
+            // max-height: calc(#{$max-component-width} * (0.96/3 - 0.06));
+
+            min-height: calc(96vw/3 - 6vw);
+        }
+
+        @include MQ(L) {
+            min-height: calc(#{$max-component-width} * (0.96/3 - 0.06));
+        }
 
         img {
             display: block;
-            width: calc(96vw/3 - 1vw);
-            max-width: calc(#{$max-component-width} * (0.96/3 - 0.01));
+            margin: 6vw 0vw;
 
-            margin: 0.5vw;
+            @include MQ(M) {
+                width: calc(96vw/3 - 1vw);
+                max-width: calc(#{$max-component-width} * (0.96/3 - 0.01));
+                margin: 0.5vw;
+            }
             @include MQ(L) {
                 margin: calc(#{$max-component-width} * 0.005);
             }
         }
 
-        .description img {
-            display: none;
-        }
-        
-        &:hover, &.hover {
-            img {
+        &.has-description {
+            .description img {
                 display: none;
             }
-            .description img {
-                display: block;
+            
+            &:hover, &.hover {
+                img {
+                    display: none;
+                }
+                .description img {
+                    display: block;
+                }
             }
         }
     }

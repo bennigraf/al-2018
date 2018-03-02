@@ -5,11 +5,15 @@ i.e. image processing) like this:
 {{ $sgp := ($.Site.GetPage "page" "bands/bands.md") }}
 {{ printf "%#v" ($sgp) }}
 */}}
-<div class="a-band">
-    <img src="{{ printf "%s/%s%s" "/bands" .slug ".jpg" | relURL }}"
+
+{{ $hasDescription := (where (readDir "/content/bands/") "Name" (printf "%s%s%s" "al-band-" .slug "-text-high.png")) }}
+<div class="a-band {{ if $hasDescription }}has-description{{ end }}">
+    <img src="{{ printf "%s%s%s" "/bands/al-band-" .slug "-low.png" | relURL }}"
          alt="{{ .name }}">
-    <a href="{{ .link }}" title="{{ .name }}" class="description" target="_blank">
-        <img src="{{ printf "%s/%s%s" "/bands" .slug "-beschreibung.jpg" | relURL }}"
-             alt="Beschreibung für {{ .name }}">
-    </a>
+    {{ if $hasDescription }}
+        <a href="{{ .link }}" title="{{ .name }}" class="description" target="_blank">
+            <img src="{{ printf "%s%s%s" "/bands/al-band-" .slug "-text-high.png" | relURL }}"
+                alt="Beschreibung für {{ .name }}">
+        </a>
+    {{ end }}
 </div>
