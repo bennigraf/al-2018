@@ -54,7 +54,8 @@ workflows:
           cron: "0,15,25,45 * * * *"
           filters:
             branches:
-only: try-schedule-workflow
+              only:
+                - master
   # manual_build:
   #   jobs:
   #     - build:
