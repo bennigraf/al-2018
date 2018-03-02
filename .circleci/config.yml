@@ -1,46 +1,50 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # - image: debian:stretch
+      # - image: circleci/golang
+      - image: circleci/node:8
+    
+    working_directory: ~/repo
+
+    steps:
+      - run: sudo apt install rsync
+
+      - checkout
+      
+      - run: yarn install
+      - run: 
+          name: parse sass/scss
+          command: ./node_modules/.bin/gulp scss
+      - run: 
+          name: get Bands from trello
+          command: ./node_modules/.bin/gulp getBands
+
+      - run:
+          name: cleanup before copy - remove node_modules
+          command: rm -rf ./node_modules
+      
+      # prepare for deployment
+      - run:
+          name: Fix host authenticity for elnath.uberspace.de
+          command: ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
+      
+      # "deploy"
+      - deploy:
+          name: copy to alu.uberspace.de
+          # command: scp -r ./* alu@elnath.uberspace.de:~/website-2018-hugo/
+          command: rsync -rlOz --force --delete ./* alu@elnath.uberspace.de:~/website-2018-hugo/
+      
+      # restart hugo serve
+      - run:
+          name: Restart hugo serve
+          command: ssh alu@elnath.uberspace.de "svc -h ~/service/al-2018-hugo/"
+
 workflows:
   version: 2
-  jobs:
-    - build:
-      docker:
-        # - image: debian:stretch
-        # - image: circleci/golang
-        - image: circleci/node:8
-      
-      working_directory: ~/repo
-
-      steps:
-        - run: sudo apt install rsync
-
-        - checkout
-        
-        - run: yarn install
-        - run: 
-            name: parse sass/scss
-            command: ./node_modules/.bin/gulp scss
-        - run: 
-            name: get Bands from trello
-            command: ./node_modules/.bin/gulp getBands
-
-        - run:
-            name: cleanup before copy - remove node_modules
-            command: rm -rf ./node_modules
-        
-        # prepare for deployment
-        - run:
-            name: Fix host authenticity for elnath.uberspace.de
-            command: ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
-        
-        # "deploy"
-        - deploy:
-            name: copy to alu.uberspace.de
-            # command: scp -r ./* alu@elnath.uberspace.de:~/website-2018-hugo/
-            command: rsync -rlOz --force --delete ./* alu@elnath.uberspace.de:~/website-2018-hugo/
-        
-        # restart hugo serve
-        - run:
-            name: Restart hugo serve
-            command: ssh alu@elnath.uberspace.de "svc -h ~/service/al-2018-hugo/"
-    - manual_build: 
-      type: approval
-      requires: build
+  manual_build: 
+    jobs: 
+      - build:
+          type: approval
+          requires: build
