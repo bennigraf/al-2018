@@ -46,3 +46,7 @@ workflows:
   do_build: 
     jobs: 
       - build
+  manual_build:
+    jobs:
+      - build:
+          type: approval
