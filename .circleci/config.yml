@@ -14,14 +14,21 @@ jobs:
       - checkout
       
       - run: yarn install
-      - run: ./node_modules/.bin/gulp scss
-      - run: rm -rf ./node_modules
+      - run: 
+          name: parse sass/scss
+          command: ./node_modules/.bin/gulp scss
+      - run: 
+          name: get Bands from trello
+          command: ./node_modules/.bin/gulp getBands
+
+      - run:
+          name: cleanup before copy - remove node_modules
+          command: rm -rf ./node_modules
       
       # prepare for deployment
       - run:
           name: Fix host authenticity for elnath.uberspace.de
-          command: |
-            ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
+          command: ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
       
       # "deploy"
       - deploy:
