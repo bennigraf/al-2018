@@ -1,8 +1,7 @@
-data/*.json
-content/bands/*.png
 .env
-
 node_modules
 themes/hugo-classic
 themes/al-2018/static/css/*.css
+data/bands.json
+content/bands/*.png
 public
