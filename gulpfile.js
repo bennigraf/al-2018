@@ -1,7 +1,28 @@
-var gulp = require("gulp"),
-    sass = require("gulp-sass"),
-    plumber = require('gulp-plumber');
-    // util         = require("gulp-util");
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    plumber = require('gulp-plumber'),
+    request = require('request'),
+    source = require('vinyl-source-stream'),
+    streamify = require('gulp-streamify'),
+    jeditor = require('gulp-json-editor'),
+    yaml = require('js-yaml'),
+    jsonfile = require('jsonfile'),
+    download = require('gulp-download'),
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('gulp-pngquant');
+
+require('dotenv').config()
+
+let options = {
+    trello: {
+        apiBaseUrl: 'https://api.trello.com/1',
+        listId: process.env.TRELLO_LIST_ID,
+        auth: {
+            key: process.env.TRELLO_API_KEY,
+            token: process.env.TRELLO_API_TOKEN
+        }
+    }
+}
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
@@ -14,7 +35,45 @@ gulp.task("scss", function () {
         //     browsers : ["last 20 versions"]
         // }))
         .pipe(gulp.dest("themes/al-2018/static/css"))
-})
+});
+
+gulp.task("getBands", function() {
+    request({
+        url: options.trello.apiBaseUrl + '/lists/' + options.trello.listId + '/cards',
+        qs: options.trello.auth
+    }, function(err, response, body) {
+        let bands = JSON.parse(body);
+        let bandsDataObject = bands.map(function(band) {
+            let bandOptions = yaml.safeLoad(band.desc);
+            bandOptions = bandOptions || { }; // make sure bandOptions exists
+            return {
+                name: band.name,
+                slug: bandOptions.slug || '',
+                link: bandOptions.link
+            }
+        });
+        jsonfile.writeFile('data/bands.json', bandsDataObject);
+
+        bands.map(getAttachmentsForBandCard);
+    });
+
+    function getAttachmentsForBandCard(band) {
+        request({
+            url: 'https://api.trello.com/1/cards/'+band.id+'/attachments',
+            qs: options.trello.auth
+        }, function(err, response, body) {
+            let attachments = JSON.parse(body);
+            attachments.map(downloadAndOptimizeBandImages);
+        });
+    }
+    
+    function downloadAndOptimizeBandImages(attachment) {
+        download(attachment.url)
+            .pipe(pngquant({ '': '128' }))
+            .pipe(imagemin())
+            .pipe(gulp.dest('content/bands'));
+    }
+});
 
 // Watch asset folder for changes
 gulp.task("watch", ["scss"], function () {

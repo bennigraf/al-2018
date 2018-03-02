@@ -1,4 +1,6 @@
-# data/*.json
+data/*.json
+content/bands/*.png
+.env
 
 node_modules
 themes/hugo-classic
