@@ -5,15 +5,22 @@
 
 body {
     background-color: $color-beige;
-    background-image: url(../images/al-bg-low.jpg);
-    background-repeat: no-repeat;
-    // background-size: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-	background-position: 0% 0%;
 
-    @include MQ(M) {
-        background-image: url(../images/al-bg-high.jpg);
+    #bgfix {
+        position: fixed;
+        width: 100vw;
+        height: 105vh;
+        z-index: -10;
+
+        background-image: url(../images/al-bg-low.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0% 0%;
+
+        @include MQ(M) {
+            background-image: url(../images/al-bg-high.jpg);
+        }
     }
 }
 
