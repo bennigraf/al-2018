@@ -21,11 +21,6 @@ section.bands {
     .a-band {
         width: 96vw;
 
-        img {
-            width: 100%;
-            max-width: 100%;
-        }
-
         @include MQ(M) {
             // float: left;
             width: calc(96vw/3);
@@ -42,6 +37,8 @@ section.bands {
 
         img {
             display: block;
+            width: 100%;
+            max-width: 100%;
             margin: 6vw 0vw;
 
             @include MQ(M) {
