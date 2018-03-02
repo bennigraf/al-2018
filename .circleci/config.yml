@@ -43,8 +43,6 @@ jobs:
 
 workflows:
   version: 2
-  manual_build: 
+  do_build: 
     jobs: 
-      - build:
-          type: approval
-          requires: build
+      - build
