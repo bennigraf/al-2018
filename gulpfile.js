@@ -42,6 +42,9 @@ gulp.task("getBands", function() {
         url: options.trello.apiBaseUrl + '/lists/' + options.trello.listId + '/cards',
         qs: options.trello.auth
     }, function(err, response, body) {
+        if (response.statusCode !== 200) {
+            throw "Invalid response from Trello API"
+        }
         let bands = JSON.parse(body);
         let bandsDataObject = bands.map(function(band) {
             let bandOptions = yaml.safeLoad(band.desc);
@@ -62,6 +65,9 @@ gulp.task("getBands", function() {
             url: 'https://api.trello.com/1/cards/'+band.id+'/attachments',
             qs: options.trello.auth
         }, function(err, response, body) {
+            if (response.statusCode !== 200) {
+                throw "Invalid response from Trello API"
+            }
             let attachments = JSON.parse(body);
             attachments.map(downloadAndOptimizeBandImages);
         });
