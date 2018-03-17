@@ -4,7 +4,8 @@ jobs:
     docker:
       # - image: debian:stretch
       # - image: circleci/golang
-      - image: circleci/node:8
+      # - image: circleci/node:8
+      - image: circleci/node@sha256:895bd70ebcf4fd8a61a38f236fdea711859ac5d24357dc419559e53b06bac476
     
     working_directory: ~/repo
 
