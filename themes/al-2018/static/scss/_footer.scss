@@ -150,6 +150,11 @@ div.social {
 
 div.partner {
     // width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
     background-color: $color-white;
     padding: 5vw 10vw;
 
@@ -177,6 +182,31 @@ div.partner {
         @include MQ(L) {
             height: calc(#{$max-component-width} * 0.1);
             margin: 0 calc(#{$max-component-width} * 0.03);
+        }
+    }
+
+    &.medien {
+        img {
+            margin: 3vw;
+            height: 6vw;
+
+            @include IMQ(M) {
+                height: 12vw;
+            }
+        }
+        img.flat {
+            height: 3vw;
+            
+            @include IMQ(M) {
+                height: 5vw;
+            }
+        }
+        img.medium {
+            height: 5vw;
+
+            @include IMQ(M) {
+                height: 8vw;
+            }
         }
     }
 }
