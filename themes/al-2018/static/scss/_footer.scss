@@ -176,7 +176,7 @@ div.partner {
         margin: 0 3vw;
 
         @include IMQ(M) {
-            height: 20vw;
+            height: 16vw;
         }
 
         @include MQ(L) {
@@ -188,24 +188,24 @@ div.partner {
     &.medien {
         img {
             margin: 3vw;
-            height: 6vw;
-
-            @include IMQ(M) {
-                height: 12vw;
-            }
-        }
-        img.flat {
-            height: 3vw;
-            
-            @include IMQ(M) {
-                height: 5vw;
-            }
-        }
-        img.medium {
             height: 5vw;
 
             @include IMQ(M) {
-                height: 8vw;
+                height: 7vw;
+            }
+        }
+        img.flat {
+            height: 2vw;
+            
+            @include IMQ(M) {
+                height: 2.5vw;
+            }
+        }
+        img.medium {
+            height: 3vw;
+
+            @include IMQ(M) {
+                height: 4vw;
             }
         }
     }
