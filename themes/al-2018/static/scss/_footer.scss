@@ -156,13 +156,13 @@ div.partner {
     align-items: center;
 
     background-color: $color-white;
-    padding: 5vw 10vw;
+    padding: 0 10vw;
 
     @include IMQ(M) {
-        padding: 5vw 5vw;
+        padding: 0 5vw;
     }
     @include MQ(L) {
-        padding: calc(#{$max-component-width} * 0.05) calc(#{$max-component-width} * 0.1);
+        padding: 0 calc(#{$max-component-width} * 0.1);
     }
 
     text-align: center;
@@ -186,6 +186,8 @@ div.partner {
     }
 
     &.medien {
+        padding-bottom: 0;
+
         img {
             margin: 3vw;
             height: 5vw;
