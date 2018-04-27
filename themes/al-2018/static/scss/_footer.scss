@@ -184,6 +184,13 @@ div.partner {
             margin: 0 calc(#{$max-component-width} * 0.03);
         }
     }
+    img.medium {
+        height: 6vw;
+
+        @include IMQ(M) {
+            height: 8vw;
+        }
+    }
 
     &.medien {
         padding-bottom: 0;
