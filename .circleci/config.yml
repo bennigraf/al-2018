@@ -19,7 +19,7 @@ jobs:
             - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
 
       - run: yarn install
-      
+
       - save_cache:
           name: Save Yarn Package Cache
           key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
@@ -29,9 +29,25 @@ jobs:
       - run: 
           name: parse sass/scss
           command: ./node_modules/.bin/gulp scss
+
+      - run: 
+          name: see if bands from trello updated
+          command: ./node_modules/.bin/gulp getBandsHash
+      
+      - restore_cache:
+          name: Restore band images
+          keys:
+            - band-images-{{ checksum "static/bands.hash" }}
+
       - run: 
           name: get Bands from trello
           command: ./node_modules/.bin/gulp getBands
+      
+      - save_cache:
+          name: Save band images
+          key: band-images-{{ checksum "static/bands.hash" }}
+          paths:
+            - content/bands
 
       - run:
           name: cleanup before copy - remove node_modules

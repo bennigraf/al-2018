@@ -42,7 +42,7 @@ gulp.task("scss", function () {
         .pipe(gulp.dest("themes/al-2018/static/css"))
 });
 
-gulp.task("getBands", function() {
+gulp.task("getBandsHash", function() {
     request({
         url: options.trello.apiBaseUrl + '/lists/' + options.trello.listId + '/cards',
         qs: options.trello.auth
@@ -55,6 +55,24 @@ gulp.task("getBands", function() {
         hash.update(body);
         hashString = hash.digest('hex');
         fs.writeFile('static/bands.hash', hashString, () => {});
+    });
+});
+
+gulp.task("getBands", function() {
+    request({
+        url: options.trello.apiBaseUrl + '/lists/' + options.trello.listId + '/cards',
+        qs: options.trello.auth
+    }, function(err, response, body) {
+        if (response.statusCode !== 200) {
+            throw "getBands: Invalid response from Trello API"
+        }
+
+        let hashString = '';
+        try {
+            hashString = fs.readFileSync('static/bands.hash').toString;
+        } catch (e) {
+            console.log("no bands hash found.");
+        }
         
         let trelloBody = body;
         request({
