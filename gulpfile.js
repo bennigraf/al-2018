@@ -70,7 +70,6 @@ gulp.task("getBands", function() {
         let hashString = '';
         try {
             hashString = fs.readFileSync('static/bands.hash').toString();
-            console.log('hashstring: ', hashString);
         } catch (e) {
             console.log("no bands hash found.");
         }
@@ -80,12 +79,11 @@ gulp.task("getBands", function() {
             url: options.alinaelumr.baseUrl + '/bands.hash',
         }, function(err, response, body) {
             let updateBandMedia;
-            console.log(body);
             if (body == hashString) {
                 console.log("No updates for bands");
                 return;
             }
-            
+
             parseTrelloResponseIntoBands(trelloBody);
         });
     });
