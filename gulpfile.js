@@ -48,13 +48,13 @@ gulp.task("getBandsHash", function() {
         qs: options.trello.auth
     }, function(err, response, body) {
         if (response.statusCode !== 200) {
-            throw "getBands: Invalid response from Trello API"
+            throw "getBandsHash: Invalid response from Trello API"
         }
 
         let hash = crypto.createHash('sha1');
         hash.update(body);
         hashString = hash.digest('hex');
-        fs.writeFile('static/bands.hash', hashString, () => {});
+        fs.writeFileSync('static/bands.hash', hashString);
     });
 });
 

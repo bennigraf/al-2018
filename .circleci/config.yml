@@ -33,6 +33,8 @@ jobs:
       - run: 
           name: see if bands from trello updated
           command: ./node_modules/.bin/gulp getBandsHash
+
+      - run: cat static/bands.hash
       
       - restore_cache:
           name: Restore band images
