@@ -4,4 +4,5 @@ themes/hugo-classic
 themes/al-2018/static/css/*.css
 data/bands.json
 content/bands/*.png
+static/bands.hash
 public
