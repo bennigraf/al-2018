@@ -70,7 +70,7 @@ gulp.task("getBands", function() {
         let hashString = '';
         try {
             hashString = fs.readFileSync('static/bands.hash').toString;
-            console.log(hashString);
+            console.log('hashstring: ', hashString);
         } catch (e) {
             console.log("no bands hash found.");
         }
