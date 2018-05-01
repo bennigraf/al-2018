@@ -9,7 +9,9 @@ var gulp = require('gulp'),
     jsonfile = require('jsonfile'),
     download = require('gulp-download'),
     imagemin = require('gulp-imagemin'),
-    pngquant = require('gulp-pngquant');
+    pngquant = require('gulp-pngquant'),
+    fs = require('fs'),
+    crypto = require('crypto');
 
 require('dotenv').config()
 
@@ -21,6 +23,9 @@ let options = {
             key: process.env.TRELLO_API_KEY,
             token: process.env.TRELLO_API_TOKEN
         }
+    },
+    alinaelumr: {
+        baseUrl: 'https://alinaelumr.de'
     }
 }
 
@@ -43,8 +48,27 @@ gulp.task("getBands", function() {
         qs: options.trello.auth
     }, function(err, response, body) {
         if (response.statusCode !== 200) {
-            throw "Invalid response from Trello API"
+            throw "getBands: Invalid response from Trello API"
         }
+
+        let hash = crypto.createHash('sha1');
+        hash.update(body);
+        hashString = hash.digest('hex');
+        
+        let trelloBody = body;
+        request({
+            url: options.alinaelumr.baseUrl + '/bands.hash',
+        }, function(err, response, body) {
+            if (body == hashString) {
+                return;
+            }
+            console.log(body);
+            fs.writeFile('static/bands.hash', hashString);
+            parseTrelloResponseIntoBands(trelloBody);
+        });
+    });
+
+    function parseTrelloResponseIntoBands(body) {
         let bands = JSON.parse(body);
         let bandsDataObject = bands.map(function(band) {
             let bandOptions = yaml.safeLoad(band.desc);
@@ -56,9 +80,9 @@ gulp.task("getBands", function() {
             }
         });
         jsonfile.writeFile('data/bands.json', bandsDataObject);
-
+        return;
         bands.map(getAttachmentsForBandCard);
-    });
+    }
 
     function getAttachmentsForBandCard(band) {
         request({
@@ -66,7 +90,7 @@ gulp.task("getBands", function() {
             qs: options.trello.auth
         }, function(err, response, body) {
             if (response.statusCode !== 200) {
-                throw "Invalid response from Trello API"
+                throw "getAttachmentsForBandCard: Invalid response from Trello API"
             }
             let attachments = JSON.parse(body);
             attachments.map(downloadAndOptimizeBandImages);
