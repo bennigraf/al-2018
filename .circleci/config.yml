@@ -27,33 +27,31 @@ jobs:
             - node_modules/
       
       - run: 
-          name: parse sass/scss
+          name: Parse sass/scss
           command: ./node_modules/.bin/gulp scss
 
       - run: 
-          name: see if bands from trello updated
+          name: Get hash for bands from trello
           command: ./node_modules/.bin/gulp getBandsHash
-
-      - run: cat static/bands.hash
       
       - restore_cache:
-          name: Restore band images
+          name: Restore bands cache
           keys:
             - band-images-{{ checksum "static/bands.hash" }}
 
       - run: 
-          name: get Bands from trello
+          name: Get bands from trello if something changed
           command: ./node_modules/.bin/gulp getBands
       
       - save_cache:
-          name: Save band images
+          name: Save bands cache
           key: band-images-{{ checksum "static/bands.hash" }}
           paths:
             - data/bands.json
             - content/bands
 
       - run:
-          name: cleanup before copy - remove node_modules
+          name: Cleanup before copy - remove node_modules
           command: rm -rf ./node_modules
       
       # prepare for deployment
