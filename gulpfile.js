@@ -54,21 +54,24 @@ gulp.task("getBands", function() {
         let hash = crypto.createHash('sha1');
         hash.update(body);
         hashString = hash.digest('hex');
+        fs.writeFile('static/bands.hash', hashString, () => {});
         
         let trelloBody = body;
         request({
             url: options.alinaelumr.baseUrl + '/bands.hash',
         }, function(err, response, body) {
+            let updateBandMedia;
             if (body == hashString) {
-                return;
+                updateBandMedia = false;
+                console.log("No updates for bands");
+            } else {
+                updateBandMedia = true;
             }
-            console.log(body);
-            fs.writeFile('static/bands.hash', hashString);
-            parseTrelloResponseIntoBands(trelloBody);
+            parseTrelloResponseIntoBands(trelloBody, updateBandMedia);
         });
     });
 
-    function parseTrelloResponseIntoBands(body) {
+    function parseTrelloResponseIntoBands(body, updateBandMedia) {
         let bands = JSON.parse(body);
         let bandsDataObject = bands.map(function(band) {
             let bandOptions = yaml.safeLoad(band.desc);
@@ -80,13 +83,15 @@ gulp.task("getBands", function() {
             }
         });
         jsonfile.writeFile('data/bands.json', bandsDataObject);
-        return;
-        bands.map(getAttachmentsForBandCard);
+        
+        if (updateBandMedia) {
+            bands.map(getAttachmentsForBandCard);
+        }
     }
 
     function getAttachmentsForBandCard(band) {
         request({
-            url: 'https://api.trello.com/1/cards/'+band.id+'/attachments',
+            url: options.trello.apiBaseUrl + '/cards/'+band.id+'/attachments',
             qs: options.trello.auth
         }, function(err, response, body) {
             if (response.statusCode !== 200) {
