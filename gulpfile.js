@@ -82,16 +82,15 @@ gulp.task("getBands", function() {
             let updateBandMedia;
             console.log(body);
             if (body == hashString) {
-                updateBandMedia = false;
                 console.log("No updates for bands");
-            } else {
-                updateBandMedia = true;
+                return;
             }
-            parseTrelloResponseIntoBands(trelloBody, updateBandMedia);
+            
+            parseTrelloResponseIntoBands(trelloBody);
         });
     });
 
-    function parseTrelloResponseIntoBands(body, updateBandMedia) {
+    function parseTrelloResponseIntoBands(body) {
         let bands = JSON.parse(body);
         let bandsDataObject = bands.map(function(band) {
             let bandOptions = yaml.safeLoad(band.desc);
@@ -104,9 +103,7 @@ gulp.task("getBands", function() {
         });
         jsonfile.writeFile('data/bands.json', bandsDataObject);
         
-        if (updateBandMedia) {
-            bands.map(getAttachmentsForBandCard);
-        }
+        bands.map(getAttachmentsForBandCard);
     }
 
     function getAttachmentsForBandCard(band) {

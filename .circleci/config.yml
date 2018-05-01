@@ -49,6 +49,7 @@ jobs:
           name: Save band images
           key: band-images-{{ checksum "static/bands.hash" }}
           paths:
+            - data/bands.json
             - content/bands
 
       - run:
