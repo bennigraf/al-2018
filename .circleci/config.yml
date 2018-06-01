@@ -2,7 +2,7 @@ version: 2
 jobs:
   restart_hugo:
     docker: 
-      # - image: debian:stretch
+      - image: debian:stretch
     steps:
     # prepare for deployment
       - run:
