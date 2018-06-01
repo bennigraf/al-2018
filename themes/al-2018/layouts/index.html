@@ -2,7 +2,15 @@
 <section class="bands">
     {{/* printf "%#v" (.Site.Data) */}}
     {{ range .Site.Data.bands }}
-        {{ partial "a-band.html" . }}
+        {{/* If a band has a releaseDate (= due date in trello) compare
+            it to now; otherwise just render the band */}}
+        {{ if .releaseDate }}
+            {{ if ((time .releaseDate).Before now) }}
+                {{ partial "a-band.html" . }}
+            {{ end }}
+        {{ else }}
+            {{ partial "a-band.html" . }}
+        {{ end }}
     {{ end }}
 </section>
 {{ end }}

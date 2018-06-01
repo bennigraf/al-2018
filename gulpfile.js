@@ -1,4 +1,5 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
+    taskListing = require('gulp-task-listing'),
     sass = require('gulp-sass'),
     plumber = require('gulp-plumber'),
     request = require('request'),
@@ -15,7 +16,7 @@ var gulp = require('gulp'),
 
 require('dotenv').config()
 
-let options = {
+const options = {
     trello: {
         apiBaseUrl: 'https://api.trello.com/1',
         listId: process.env.TRELLO_LIST_ID,
@@ -90,13 +91,15 @@ gulp.task("getBands", function() {
 
     function parseTrelloResponseIntoBands(body) {
         let bands = JSON.parse(body);
-        let bandsDataObject = bands.map(function(band) {
+        let bandsDataObject = bands.map(band => {
+            
             let bandOptions = yaml.safeLoad(band.desc);
             bandOptions = bandOptions || { }; // make sure bandOptions exists
             return {
                 name: band.name,
                 slug: bandOptions.slug || '',
-                link: bandOptions.link
+                link: bandOptions.link,
+                releaseDate: band.due
             }
         });
         jsonfile.writeFile('data/bands.json', bandsDataObject);
@@ -129,3 +132,5 @@ gulp.task("getBands", function() {
 gulp.task("watch", ["scss"], function () {
     gulp.watch("themes/al-2018/static/scss/**/*", ["scss"])
 })
+
+gulp.task('default', taskListing);
