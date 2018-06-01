@@ -49,6 +49,10 @@ Für Richtigkeit, Vollständigkeit und Aktualität der auf der Internetseite dar
 <br>
 •  
 <br>
+**Datenschutz:** Diese Webseite nutzt weder Cookies noch werden andere Technologien verwendet, um Nutzerdaten zu speichern oder zu verarbeiten. Wenn du dich zum E-Mail-Newsletter anmeldest, wird die E-Mail-Adresse an unseren Dienstleister [Mailchimp](https://mailchimp.com/) weitergegeben. Du kannst der Verwendung deiner Adresse jederzeit wiedersprechen oder eine Löschung, Heraus- oder Weitergabe veranlassen, indem du eine formlose E-Mail mit der Anfrage an tickets@alinaelumr.de schreibst.  
+<br>
+•  
+<br>
 Dieses Impressum gilt auch für folgende Facebook-Seite: https://www.facebook.com/alinaelumr
 
 {{% /page-column %}}
