@@ -2,7 +2,7 @@ version: 2
 jobs:
   restart_hugo:
     docker: 
-      - image: debian:stretch
+      - image: circleci/node:8
     steps:
     # prepare for deployment
       - run:
