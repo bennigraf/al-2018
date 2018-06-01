@@ -1,5 +1,19 @@
 version: 2
 jobs:
+  restart_hugo:
+    docker: 
+      # - image: debian:stretch
+    steps:
+    # prepare for deployment
+      - run:
+          name: Fix host authenticity for elnath.uberspace.de
+          command: ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
+      
+      # restart hugo serve
+      - run:
+          name: Restart hugo serve
+          command: ssh alu@elnath.uberspace.de "svc -h ~/service/al-2018-hugo/"
+  
   build:
     docker:
       # - image: debian:stretch
@@ -85,6 +99,17 @@ workflows:
             branches:
               only:
                 - master
+  restart_hugo:
+    jobs:
+      - restart_hugo
+    triggers:
+      - schedule:
+          cron: "5,20,35,50 0,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 * * *"
+          filters:
+            branches:
+              only:
+                - master
+
   # manual_build:
   #   jobs:
   #     - build:
