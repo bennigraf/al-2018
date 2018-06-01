@@ -8,8 +8,8 @@ jobs:
       - run:
           name: Fix host authenticity for elnath.uberspace.de
           command: |
-            mkdir -p .ssh && \
-            touch .ssh/known_hosts && \
+            mkdir -p ~/.ssh && \
+            touch ~/.ssh/known_hosts && \
             ssh-keyscan elnath.uberspace.de >> ~/.ssh/known_hosts
       
       # restart hugo serve
