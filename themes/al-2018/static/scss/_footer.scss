@@ -192,6 +192,14 @@ div.partner {
         }
     }
 
+    img.flatmium {
+        height: 4vw;
+
+        @include IMQ(M) {
+            height: 7vw;
+        }
+    }
+
     &.medien {
         padding-bottom: 0;
 
@@ -203,18 +211,19 @@ div.partner {
                 height: 7vw;
             }
         }
-        img.flat {
-            height: 2vw;
-            
-            @include IMQ(M) {
-                height: 2.5vw;
-            }
-        }
         img.medium {
             height: 3vw;
 
             @include IMQ(M) {
                 height: 4vw;
+            }
+        }
+
+        img.flat {
+            height: 2vw;
+            
+            @include IMQ(M) {
+                height: 2.5vw;
             }
         }
     }
