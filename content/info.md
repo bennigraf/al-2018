@@ -5,7 +5,7 @@ class: page-info page-columns
 {{% page-column %}}
 ## Das Festival
 
-alínæ lumr lädt ein zu einem ereignisreichen Urlaub auf dem Land. Auf der Burg, am Marktplatz, den Hinterhöfen, der Altstadtkirche, auf versteckten Wiesen und am See wartet ein sorgfältig kuratiertes Musikprogramm, Workshops, Theater, Lesungen und die charmante Altstadt Storkow auf euch. Wir möchten die Stadt öffnen und Orte des Zusammenkommens schaffen, auch um ein klares Zeichen für positiven Austausch und Willkommenskultur in der Region zu setzen.
+alínæ lumr lädt ein zu einem ereignisreichen Urlaub auf dem Land. Auf der Burg, am Marktplatz, den Hinterhöfen, der Altstadtkirche, auf versteckten Wiesen und am See wartet ein sorgfältig kuratiertes Musikprogramm, Workshops, Ausstellungen, Lesungen, Rundgänge und die charmante Altstadt Storkow auf euch. Wir möchten die Stadt öffnen und Orte des Zusammenkommens schaffen, auch um ein klares Zeichen für positiven Austausch und Willkommenskultur in der Region zu setzen.
 
 ### Tickets
 
@@ -58,10 +58,6 @@ Der Marktplatz ist das Herz und Zentrum des Festivals. Hier spielt sich ein wich
 ### Der Weidendom
 
 Unter der Kuppel eines wunderschönen Weidendoms werden ebenfalls Konzerte stattfinden. Dieser befindet sich im MitMachPark Irrlandia. Um dort hin zu kommen, müsst ihr zwar ein bisschen mehr Fußweg einplanen oder einfach fünf Minuten radeln, dafür lohnt sich der Besuch aber umso mehr!
-
-### Das Storchennest
-
-Gegenüber der Burg lockt eine lauschige Hör- und Spielwiese mit wundersamem Treiben. Entspannt euch unter schattigen Bäumen und in unserem gemütlichen Dome! 
 
 {{% /page-column %}}
 
