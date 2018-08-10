@@ -13,7 +13,9 @@ Tickets für das alínæ lumr erhaltet ihr ausschließlich über unseren [Shop](
 
 ### Musik
 
-Die Bands werden Freitag, Samstag und Sonntag spielen. Ein Timetable kommt im August.
+{{< figure src="/images/al-timetable.jpg" link="/al-timetable.pdf" alt="Timetable" >}}
+
+Die Bands werden Freitag, Samstag und Sonntag spielen. Den Timetable findet ihr [hier](/al-timetable.pdf).
 
 ### Zelten
 
@@ -36,6 +38,10 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 {{% page-column %}}
 
 ## Die Locations
+
+{{< figure src="/images/al-map+legende.jpg" link="/al-map+legende.pdf" alt="Map" >}}
+
+[Hier](/al-map+legende.pdf) findet ihr einen Plan für unsere Orte.
 
 ### Die Burg
 
