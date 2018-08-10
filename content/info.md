@@ -13,7 +13,7 @@ Tickets für das alínæ lumr erhaltet ihr ausschließlich über unseren [Shop](
 
 ### Musik
 
-{{< figure src="/images/al-timetable.png" link="/al-timetable.pdf" alt="Timetable" >}}
+{{< figure src="/images/al-timetable.png" link="/al-timetable.pdf" target="_blank" alt="Timetable" >}}
 
 Die Bands werden Freitag, Samstag und Sonntag spielen. Den Timetable findet ihr [hier](/al-timetable.pdf).
 
@@ -39,7 +39,7 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 
 ## Die Locations
 
-{{< figure src="/images/al-map+legende.png" link="/al-map+legende.pdf" alt="Map" >}}
+{{< figure src="/images/al-map+legende.png" link="/al-map+legende.pdf" target="_blank" alt="Map" >}}
 
 [Hier](/al-map+legende.pdf) findet ihr einen Plan für unsere Orte.
 
