@@ -39,9 +39,17 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 
 ## Die Locations
 
-{{< figure src="/images/al-map+legende.png" link="/al-map+legende.pdf" target="_blank" alt="Map" >}}
+{{< figure src="/images/al-map+legende.png" target="_blank" link="/al-map+legende.pdf" alt="Map" >}}
 
-[Hier](/al-map+legende.pdf) findet ihr einen Plan für unsere Orte.
+[Hier](/al-map+legende.pdf) findet ihr einen Lageplan für unsere Orte.
+
+### Festivalbüro (Am Markt 13)
+
+Herzlich Willkommen in Storkow! Unser Festivalbüro ist eure erste Station – hier könnt ihr euch eure Bändchen und ein Lächeln abholen. Falls ihr an diesem Wochenende etwas verliert oder findet, holt und gebt ihr es am besten hier ab.
+
+Öffnungszeiten:  
+Freitag, 17.8.: 15 – 24 Uhr  
+Samstag, 18.8.: 12 – 24 Uhr 
 
 ### Die Burg
 
