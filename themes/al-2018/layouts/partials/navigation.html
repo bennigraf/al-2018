@@ -12,7 +12,9 @@
         </li>
 
         <li>
-            <a href="https://alinaelumr-shop.de" title="Shop">
+            {{- $linkURL := "/shop/" }}
+            <a href="{{ $linkURL | relURL }}" title="Shop"
+                class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
                 <img src="{{ "/images/navigation/al-button-shop-inaktiv.svg" | relURL }}" 
                         alt="Shop" />
                 <img src="{{ "/images/navigation/al-button-shop-aktiv.svg" | relURL }}" 

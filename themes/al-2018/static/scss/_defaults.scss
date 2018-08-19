@@ -16,10 +16,14 @@ $color-yellow: #fee042;
 $color-brown: #c66a5b;
 
 // the default centered container with a certain width
-%main-container {
-    width: 96vw;
+@mixin main-container($widthabs, $widthfrac) {
+    width: $widthabs;
     @include MQ(M) {
-        max-width: calc(#{$max-component-width} * 0.96);
+        max-width: calc(#{$max-component-width} * #{$widthfrac});
     }
     margin: auto;
+}
+
+%main-container {
+    @include main-container(96vw, 0.96)
 }
