@@ -33,13 +33,20 @@ function prefixScript(url, onloadFunction) {
 }
 prefixScript('https://shop.alinaelumr.de/widget/v1.de-informal.js', function() {
     console.log('loaded');
+    var totaltries = 0;
     function waitForWidgetLoader() {
-        if (window.widgetlist.length === 0 || window.widgetlist[0].useIframe) {
-            console.log('still waiting');
-            setTimeout(waitForWidgetLoader, 33);
+        var widgets = document.querySelectorAll("div.pretix-widget-wrapper");
+        if (widgets.length === 0) {
+            totaltries++;
+            if (totaltries < 200) {
+                setTimeout(waitForWidgetLoader, 33);
+            } else {
+                console.log('timing out');
+            }
         } else {
-            window.widgetlist[0]._computedWatchers.useIframe.get = function() { return false };
-            console.log(window.widgetlist[0].useIframe);
+            console.log('fix useIframe');
+            widgets[0].__vue__.$root._computedWatchers.useIframe.get = function() { return false };
+            console.log(widgets[0].__vue__.$root.useIframe);
         }
     };
     waitForWidgetLoader();
