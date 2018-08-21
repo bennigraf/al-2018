@@ -22,16 +22,26 @@
 <![endif]-->
 
 <link rel="stylesheet" type="text/css" href="https://shop.alinaelumr.de/alinaelumr/2019/widget/v1.css">
-<script type="text/javascript" src="https://shop.alinaelumr.de/widget/v1.de-informal.js" id="pretixwidget" async></script>
+<!-- <script type="text/javascript" src="https://shop.alinaelumr.de/widget/v1.de-informal.js" id="pretixwidget"></script> -->
 <script type="text/javascript">
-document.getElementById("pretixwidget").onload = function(){ 
+console.log('setting up loader');
+function prefixScript(url, onloadFunction) {
+  var newScript = document.createElement("script");
+  if (onloadFunction) { newScript.onload = onloadFunction; }
+  document.currentScript.parentNode.insertBefore(newScript, document.currentScript);
+  newScript.src = url;
+}
+prefixScript('https://shop.alinaelumr.de/widget/v1.de-informal.js', function() {
+    console.log('loaded');
     function waitForWidgetLoader() {
-        if (window.widgetlist.length === 0) {
-            setTimeout(waitForWidgetLoader, 25);
+        if (window.widgetlist.length === 0 || window.widgetlist[0].useIframe) {
+            console.log('still waiting');
+            setTimeout(waitForWidgetLoader, 33);
         } else {
             window.widgetlist[0]._computedWatchers.useIframe.get = function() { return false };
+            console.log(window.widgetlist[0].useIframe);
         }
     };
     waitForWidgetLoader();
-}
+});
 </script>
