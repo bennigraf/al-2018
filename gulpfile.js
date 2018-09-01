@@ -32,7 +32,7 @@ const options = {
 
 // Compile SCSS files to CSS
 gulp.task("scss", function () {
-    gulp.src("themes/al-2018/static/scss/**/*.scss")
+    return gulp.src("themes/al-2018/static/scss/**/*.scss")
         .pipe(plumber())
         .pipe(sass({
             // outputStyle : "compressed"
@@ -130,7 +130,7 @@ gulp.task("getBands", function() {
 
 // Watch asset folder for changes
 gulp.task("watch", function () {
-    gulp.watch("themes/al-2018/static/scss/**/*", ["scss"])
-})
+    gulp.watch("themes/al-2018/static/scss/**/*", gulp.parallel("scss"))
+});
 
 gulp.task('default', taskListing);
