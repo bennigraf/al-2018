@@ -44,7 +44,7 @@ gulp.task("scss", function () {
 });
 
 gulp.task("getBandsHash", function() {
-    request({
+    return request({
         url: options.trello.apiBaseUrl + '/lists/' + options.trello.listId + '/cards',
         qs: options.trello.auth
     }, function(err, response, body) {
@@ -60,7 +60,7 @@ gulp.task("getBandsHash", function() {
 });
 
 gulp.task("getBands", function() {
-    request({
+    return request({
         url: options.trello.apiBaseUrl + '/lists/' + options.trello.listId + '/cards',
         qs: options.trello.auth
     }, function(err, response, body) {
