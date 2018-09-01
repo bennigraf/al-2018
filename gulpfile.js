@@ -129,7 +129,7 @@ gulp.task("getBands", function() {
 });
 
 // Watch asset folder for changes
-gulp.task("watch", ["scss"], function () {
+gulp.task("watch", function () {
     gulp.watch("themes/al-2018/static/scss/**/*", ["scss"])
 })
 
