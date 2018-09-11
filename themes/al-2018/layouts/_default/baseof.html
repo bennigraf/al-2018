@@ -17,7 +17,12 @@
         </main>
 
         {{ partial "footer.html" . }}
-        <script src="{{ "/js/zepto.min.js" | relURL }}" type="text/javascript" ></script>
-        <script src="{{ "/js/main.js" | relURL }}" type="text/javascript" ></script>
+        <script src="{{ "/js/zepto.min.js" | relURL }}" type="text/javascript"></script>
+        <script src="{{ "/js/main.js" | relURL }}" type="text/javascript"></script>
+        {{ if isset .Params "scripts" }}
+            {{ range .Params.scripts }}
+                <script src="{{ printf "/js/%s" . | relURL }}" type="text/javascript"></script>
+            {{ end }}
+        {{ end }}
     </body>
 </html>
