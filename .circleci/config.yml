@@ -47,25 +47,25 @@ jobs:
           name: Parse sass/scss
           command: ./node_modules/.bin/gulp scss
 
-      - run: 
-          name: Get hash for bands from trello
-          command: ./node_modules/.bin/gulp getBandsHash
+    #   - run: 
+    #       name: Get hash for bands from trello
+    #       command: ./node_modules/.bin/gulp getBandsHash
       
-      - restore_cache:
-          name: Restore bands cache
-          keys:
-            - band-images-{{ checksum "static/bands.hash" }}
+    #   - restore_cache:
+    #       name: Restore bands cache
+    #       keys:
+    #         - band-images-{{ checksum "static/bands.hash" }}
 
-      - run: 
-          name: Get bands from trello if something changed
-          command: ./node_modules/.bin/gulp getBands
+    #   - run: 
+    #       name: Get bands from trello if something changed
+    #       command: ./node_modules/.bin/gulp getBands
       
-      - save_cache:
-          name: Save bands cache
-          key: band-images-{{ checksum "static/bands.hash" }}
-          paths:
-            - data/bands.json
-            - content/bands
+    #   - save_cache:
+    #       name: Save bands cache
+    #       key: band-images-{{ checksum "static/bands.hash" }}
+    #       paths:
+    #         - data/bands.json
+    #         - content/bands
 
       - run:
           name: Cleanup before copy - remove node_modules
