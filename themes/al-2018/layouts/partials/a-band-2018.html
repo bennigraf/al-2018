@@ -1,0 +1,12 @@
+{{ $hasDescription := (where (readDir "/content/2018/") "Name" (printf "%s%s%s" "al-band-" .slug "-text-high.png")) }}
+
+<div class="a-band {{ if $hasDescription }}has-description{{ end }}">
+    <img src="{{ printf "%s%s%s" "/2018/al-band-" .slug "-low.png" | relURL }}"
+         alt="{{ .name }}">
+    {{ if $hasDescription }}
+        <a href="{{ .link }}" title="{{ .name }}" class="description" target="_blank">
+            <img src="{{ printf "%s%s%s" "/2018/al-band-" .slug "-text-high.png" | relURL }}"
+                alt="Beschreibung für {{ .name }}">
+        </a>
+    {{ end }}
+</div>

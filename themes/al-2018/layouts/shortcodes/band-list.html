@@ -1,0 +1,21 @@
+{{ $bandlist := index .Site.Data (.Get 0) }}
+{{ $is2018 := (eq (.Get 0) "bands2018") }}
+
+{{ $partial := (cond $is2018 "a-band-2018.html" "a-band.html") }}
+
+{{/* printf "%#v" $bandlist */}}
+
+<section class="bands">
+    {{ range $band := $bandlist }}
+        {{ $data := (dict "band" $band "image-prefix" "/2018") }}
+        {{/* If a band has a releaseDate (= due date in trello) compare
+            it to now; otherwise just render the band */}}
+        {{ if .releaseDate }}
+            {{ if ((time .releaseDate).Before now) }}
+                {{ partial $partial $band }}
+            {{ end }}
+        {{ else }}
+            {{ partial $partial $band }}
+        {{ end }}
+    {{ end }}
+</section>
