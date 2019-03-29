@@ -2,6 +2,7 @@
 node_modules
 themes/hugo-classic
 themes/al-2018/static/css/*.css
+themes/al-2019/static/css/*.css
 data/bands.json
 content/bands/*.png
 static/bands.hash
