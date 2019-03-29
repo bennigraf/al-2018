@@ -24,3 +24,9 @@
 .page-full main .pretix-widget-availability-gone {
     color: $color-turquoise;
 }
+
+.page-full main .pretix-widget input[type="text"], 
+.page-full main .pretix-widget input[type="number"] {
+    border-color: $color-dark;
+    border-radius: 0;
+}
