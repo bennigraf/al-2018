@@ -31,7 +31,7 @@ const options = {
 }
 
 // Compile SCSS files to CSS
-gulp.task("scss", function () {
+gulp.task("scss2018", function () {
     return gulp.src("themes/al-2018/static/scss/**/*.scss")
         .pipe(plumber())
         .pipe(sass({
@@ -41,6 +41,17 @@ gulp.task("scss", function () {
         //     browsers : ["last 20 versions"]
         // }))
         .pipe(gulp.dest("themes/al-2018/static/css"))
+});
+gulp.task("scss2019", function () {
+    return gulp.src("themes/al-2019/static/scss/**/*.scss")
+        .pipe(plumber())
+        .pipe(sass({
+            // outputStyle : "compressed"
+        }))
+        // .pipe(autoprefixer({
+        //     browsers : ["last 20 versions"]
+        // }))
+        .pipe(gulp.dest("themes/al-2019/static/css"))
 });
 
 gulp.task("getBandsHash", function() {
@@ -129,8 +140,12 @@ gulp.task("getBands", function() {
 });
 
 // Watch asset folder for changes
-gulp.task("watch", function () {
-    gulp.watch("themes/al-2018/static/scss/**/*", gulp.parallel("scss"))
-});
+gulp.task("watch2018", function() {
+    return gulp.watch("themes/al-2018/static/scss/**/*", gulp.parallel("scss2018"))
+})
+gulp.task("watch2019", function() {
+    return gulp.watch("themes/al-2019/static/scss/**/*", gulp.parallel("scss2019"))
+})
+gulp.task("watch", gulp.parallel("watch2018", "watch2019"));
 
 gulp.task('default', taskListing);

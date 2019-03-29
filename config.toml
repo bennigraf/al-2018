@@ -2,7 +2,7 @@ baseURL = "https://alinaelumr.de/"
 languageCode = "de-de"
 title = "alínæ lumr Festival 2018"
 
-theme = "al-2018"
+theme = "al-2019"
 
 # doesn't work yet (hugo bug, see https://github.com/SiamKreative/siamkreative.com/issues/20)
 # leaving this here in case someone fixes this at some point...

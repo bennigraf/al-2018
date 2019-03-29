@@ -5,17 +5,15 @@ class: page-info page-columns
 {{% page-column %}}
 ## Das Festival
 
-alínæ lumr lädt ein zu einem ereignisreichen Urlaub auf dem Land. Auf der Burg, am Marktplatz, den Hinterhöfen, der Altstadtkirche, auf versteckten Wiesen und am See wartet ein sorgfältig kuratiertes Musikprogramm, Workshops, Ausstellungen, Lesungen, Rundgänge und die charmante Altstadt Storkow auf euch. Wir möchten die Stadt öffnen und Orte des Zusammenkommens schaffen, auch um ein klares Zeichen für positiven Austausch und Willkommenskultur in der Region zu setzen.
+alínæ lumr lädt ein zu einem ereignisreichen Urlaub auf dem Land. Auf der Burg, am Marktplatz, den Hinterhöfen, der Altstadtkirche, auf versteckten Wiesen und am See wartet ein sorgfältig kuratiertes Musik- und Kulturprogramm und die charmante Altstadt Storkow auf euch. Wir möchten die Stadt öffnen und Orte des Zusammenkommens schaffen, auch um ein klares Zeichen für positiven Austausch und Willkommenskultur in der Region zu setzen.
 
 ### Tickets
 
-Tickets für das alínæ lumr erhaltet ihr ausschließlich über unseren [Shop](https://alinaelumr-shop.de). 
+Tickets für das alínæ lumr erhaltet ihr ausschließlich über unseren [Shop](/shop). 
 
 ### Musik
 
-{{< figure src="/images/al-timetable.png" link="/al-timetable.pdf" target="_blank" alt="Timetable" >}}
-
-Die Bands werden Freitag, Samstag und Sonntag spielen. Den Timetable findet ihr [hier](/al-timetable.pdf).
+Die Künstler*innen und Bands werden am Freitag, Samstag und Sonntag spielen. Den Zeitplan gibt es im August.
 
 ### Zelten
 
@@ -39,17 +37,9 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 
 ## Die Locations
 
-{{< figure src="/images/al-map+legende.png" target="_blank" link="/al-map+legende.pdf" alt="Map" >}}
-
-[Hier](/al-map+legende.pdf) findet ihr einen Lageplan für unsere Orte.
-
-### Festivalbüro (Am Markt 13)
+### Festivalbüro
 
 Herzlich Willkommen in Storkow! Unser Festivalbüro ist eure erste Station – hier könnt ihr euch eure Bändchen und ein Lächeln abholen. Falls ihr an diesem Wochenende etwas verliert oder findet, holt und gebt ihr es am besten hier ab.
-
-Öffnungszeiten:  
-Freitag, 17.8.: 15 – 24 Uhr  
-Samstag, 18.8.: 12 – 24 Uhr 
 
 ### Die Burg
 

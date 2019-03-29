@@ -1,0 +1,19 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Al 2019"
+description = ""
+homepage = "https://alinaelumr.de/"
+tags = []
+features = []
+min_version = "0.30.2"
+
+[author]
+  name = "Benjamin Graf"
+  homepage = "https://bennigraf.de"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

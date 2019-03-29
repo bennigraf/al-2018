@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'al-regular';
+    src: url(../fonts/al-regular/al-regular-webfont.woff2) format('woff2'), /* Super Modern Browsers */
+         url(../fonts/al-regular/al-regular-webfont.woff) format('woff'), /* Pretty Modern Browsers */
+         url(../fonts/al-regular/al-regular-webfont.ttf)  format('truetype'); /* Safari, Android, iOS */
+}
+
+@mixin font-al-regular {
+    font-family: 'al-regular', sans-serif;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'al-black';
+    src: url(../fonts/al-black/al-black-webfont.woff2) format('woff2'), /* Super Modern Browsers */
+         url(../fonts/al-black/al-black-webfont.woff) format('woff'), /* Pretty Modern Browsers */
+         url(../fonts/al-black/al-black-webfont.ttf)  format('truetype'); /* Safari, Android, iOS */
+}
+
+@mixin font-al-black {
+    font-family: 'al-black', sans-serif;
+}

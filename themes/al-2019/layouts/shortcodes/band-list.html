@@ -1,0 +1,34 @@
+{{ $is2018 := (eq (.Get 0) "bands2018") }}
+
+{{/*
+show argument passed to this shortcode - the bandlist
+{{ printf "%#v" (.Get 0) }}
+*/}}
+
+<section class="bands">
+{{ if $is2018 }}
+    {{ $bandlist := (index .Site.Data (.Get 0)) }}
+
+    {{ range $band := $bandlist }}
+        {{ $data := (dict "band" $band "image-prefix" "/2018") }}
+        {{/* If a band has a releaseDate (= due date in trello) compare
+            it to now; otherwise just render the band */}}
+        {{ if .releaseDate }}
+            {{ if ((time .releaseDate).Before now) }}
+                {{ partial "a-band-2018.html" $band }}
+            {{ end }}
+        {{ else }}
+            {{ partial "a-band-2018.html" $band }}
+        {{ end }}
+    {{ end }}
+{{ else }}
+    {{ $bandlist := (getJSON (.Get 0)).data }}
+    {{ range $band := $bandlist }}
+        {{ partial "a-band.html" $band }}
+    {{ end }}
+{{ end }}
+</section>
+
+{{/* $bandlist := (cond $is2018 (index .Site.Data (.Get 0)) (getJSON (.Get 0)) ) */}}
+
+{{/* $dataJ := getJSON "url" */}}

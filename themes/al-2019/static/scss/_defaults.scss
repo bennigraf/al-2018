@@ -1,0 +1,19 @@
+
+$color-white: #ffffff;
+$color-white-translucent: rgba(255, 255, 255, 0.95);
+$color-dark: #1C2F3C;
+$color-beige: #fbe6d1;
+$color-turquoise: #1ac6bb;
+
+// the default centered container with a certain width
+@mixin main-container($widthabs, $widthfrac) {
+    width: $widthabs;
+    @include MQ(M) {
+        max-width: calc(#{$max-component-width} * #{$widthfrac});
+    }
+    margin: auto;
+}
+
+%main-container {
+    @include main-container(96vw, 0.96)
+}

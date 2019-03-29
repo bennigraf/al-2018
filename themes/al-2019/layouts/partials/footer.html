@@ -1,0 +1,106 @@
+<nav class="footer">
+    <ul>
+        <li>
+            {{- $linkURL := "/kontakt/" -}}
+            <a href="{{ $linkURL | relURL }}" title="Kontakt"
+                class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                <img src="{{ "/images/navigation/al-button-kontakt-inaktiv.svg" | relURL }}" 
+                        alt="Kontakt" />
+                <img src="{{ "/images/navigation/al-button-kontakt-aktiv.svg" | relURL }}" 
+                        class="active" style="display: none;" />
+            </a>
+        </li>
+        <li>
+            {{- $linkURL := "/impressum/" -}}
+            <a href="{{ $linkURL | relURL }}" title="Impressum"
+                class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                <img src="{{ "/images/navigation/al-button-impressum-inaktiv.svg" | relURL }}" 
+                    alt="Impressum" />
+                <img src="{{ "/images/navigation/al-button-impressum-aktiv.svg" | relURL }}" 
+                    class="active" style="display: none;" />
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div class="footer">
+    <div id="mc_embed_signup">
+        <form action="//alinaelumr.us12.list-manage.com/subscribe/?u=a1ed93e6c9b05b3e6a37f5887&amp;id=4b7556ce98" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                    <input type="email" value="" name="MERGE0" class="required content-newsletter-email" id="mce-EMAIL" placeholder="email@newsletter.de">
+                </div>
+                <div class="clear">
+                    <input type="image" src="{{ "/images/al-button-newsletter.svg" | relURL }}" alt="Go"
+                           name="subscribe" id="mc-embedded-subscribe" class="content-newsletter-button">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="social">
+        <a href="https://www.facebook.com/alinaelumr/" title="Facebook" target="_blank">
+            <img src="{{ "/images/social/al-button-fb-inaktiv.svg" | relURL }}" alt="Facebook">
+            <img class="active" style="display: none;" 
+                 src="{{ "/images/social/al-button-fb-aktiv.svg" | relURL }}" 
+                 alt="Facebook">
+        </a>
+    
+        <a href="https://open.spotify.com/user/al%C3%ADn%C3%A6lumr" title="Spotify" target="_blank">
+            <img src="{{ "/images/social/al-button-spotify-inaktiv.svg" | relURL }}" alt="Spotify">
+            <img class="active" style="display: none;" 
+                 src="{{ "/images/social/al-button-spotify-aktiv.svg" | relURL }}" 
+                 alt="Spotify">
+        </a>
+    
+        <a href="https://www.instagram.com/alinaelumr/" title="Instagram" target="_blank">
+            <img src="{{ "/images/social/al-button-instagram-inaktiv.svg" | relURL }}" alt="Instagram">
+            <img class="active" style="display: none;" 
+                 src="{{ "/images/social/al-button-instagram-aktiv.svg" | relURL }}" 
+                 alt="Instagram">
+        </a>
+    </div>
+</div>
+
+<div class="partner medien">
+    <a href="https://www.radioeins.de/" target="_blank">
+        <img src="{{ "/images/partner/radioeins.svg" | relURL }}" alt="radio eins" class="flat">
+    </a>
+    <a href="https://www.intro.de/" target="_blank">
+        <img src="{{ "/images/partner/intro.png" | relURL }}" alt="intro magazin" class="flat">
+    </a>
+    <a href="https://www.festivalguide.de/" target="_blank">
+        <img src="{{ "/images/partner/festivalguide.png" | relURL }}" alt="Festivalguide">
+    </a>
+    <a href="http://hoemepage.com/" target="_blank">
+        <img src="{{ "/images/partner/hoeme.svg" | relURL }}" alt="hoeme" class="medium">
+    </a>
+</div>
+
+<div class="partner">
+    <a href="http://www.burgstorkow.de" target="_blank">
+        <img src="{{ "/images/partner/burg_storkow.svg" | relURL }}" alt="Burg Storkow">
+    </a>
+    <a href="http://www.mv-storkow.de" target="_blank">
+        <img src="{{ "/images/partner/mvs.svg" | relURL }}" alt="Mittelstandsverein Storkow">
+    </a>
+    <a href="https://www.alteschule-reichenwalde.de/" target="_blank">
+        <img src="{{ "/images/partner/alteschule.png" | relURL }}" alt="Alte Schule Reichenwalde" class="medium">
+    </a>
+    <a href="https://pinguindruck.de/" target="_blank">
+        <img src="{{ "/images/partner/pinguindruck.svg" | relURL }}" alt="Pinguin Druck Berlin" class="flatmium">
+    </a>
+    <a href="http://www.irrlandia.de/" target="_blank">
+        <img src="{{ "/images/partner/irrlandia.png" | relURL }}" alt="Irrlandia" class="flatmium">
+    </a>
+    <a href="https://www.aok.de/" target="_blank">
+        <img src="{{ "/images/partner/aok.svg" | relURL }}" alt="AOK" class="flatmium">
+    </a>
+    <a href="https://cloud7.de/de/" target="_blank">
+        <img src="{{ "/images/partner/cloud7.png" | relURL }}" alt="Cloud 7 Finest for Dogs" class="flatmium">
+    </a>
+    <a href="http://keychange.eu/" target="_blank">
+        <img src="{{ "/images/partner/keychange.png" | relURL }}" alt="Keychange Associate Festival" class="medium">
+    </a>
+    <img src="{{ "/images/partner/refugees_welcome.svg" | relURL }}" alt="Refugees Welcome">
+</div>
