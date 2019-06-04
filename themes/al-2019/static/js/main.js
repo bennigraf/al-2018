@@ -17,4 +17,20 @@ $(function() {
             return false;
         }
     });
+
+    var trailer = $('iframe.trailer');
+    function setTrailerSize() {
+        var windowWidth = $(this).width();
+
+        if (windowWidth < 600) {
+            trailer.width("100%");
+            trailer.height(windowWidth * (315/560) + "px");
+        } else {
+            trailer.width("");
+            trailer.height("");
+        }
+    }
+
+    $(window).resize(setTrailerSize);
+    setTrailerSize();
 });

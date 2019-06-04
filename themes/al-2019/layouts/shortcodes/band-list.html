@@ -5,6 +5,10 @@ show argument passed to this shortcode - the bandlist
 {{ printf "%#v" (.Get 0) }}
 */}}
 
+{{ if (not $is2018) }}
+    <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed/4nfKWMynpRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{ end }}
+
 <section class="bands">
 {{ if $is2018 }}
     {{ $bandlist := (index .Site.Data (.Get 0)) }}

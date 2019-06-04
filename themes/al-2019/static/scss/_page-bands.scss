@@ -2,6 +2,11 @@
     @extend %main-container;
 }
 
+.page-lineup iframe.trailer {
+    display: block;
+    margin: auto;
+}
+
 section.bands {
     display: flex;
     flex-flow: row wrap;
