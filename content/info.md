@@ -27,7 +27,7 @@ Einkaufen ist in Storkow gar kein Problem. Verschiedenste Getränke und Speisen 
 
 ### Baden
 
-Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesagt die Badestelle „Karlslust“. Hier gibt es eine Liegewiese, Pommes und alles, was man sich sonst so wünscht. Eine Viertelstunde entfernt liegt das Strandbad: Das kostet ein bisschen Eintritt, aber dafür passt ein Bademeister auf euch (oder auf eure Kinder) auf. Wenn ihr ein Fahrrad dabei habt, seid ihr auch in 15 Minuten in Hubertushöhe oder Wolfswinkel – dort findet ihr weitere Badestellen, die sind auch sehr schön und (manchmal) sogar noch ein bisschen einsam.
+Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesagt die Badestelle „Karlslust“. Hier gibt es eine Liegewiese, Pommes und alles, was man sich sonst so wünscht. Eine Viertelstunde entfernt liegt das Strandbad: Vom 23. bis 25. August bekommt ihr mit alínæ lumr-Bändchen sogar freien Eintritt. Hier gibt es Volleyballfelder, einen Spielplatz, Sandstrand, Steg und Sprungturm. Und: Der*die Bademeister*in passt auf euch (oder auf eure Kinder) auf. Wenn ihr ein Fahrrad dabei habt, seid ihr auch in 15 Minuten in Hubertushöhe oder Wolfswinkel – dort findet ihr weitere Badestellen, die sind auch sehr schön und (manchmal) sogar noch ein bisschen einsam.
 
 ![Alinae Lumr 2017](/images/info-02.jpg)
 
@@ -88,13 +88,17 @@ Wenn ihr in Berlin losfahrt, nehmt ihr die Ostdeutsche Eisenbahn (ODEG) Richtung
 
 ## Ausflugstipps
 
+### Hinter den Fassaden
+
+Ein schöner Ausflug liegt direkt vor der Zelttür: Wie in vielen ostbrandenburgischen Städten schließen in Storkow immer mehr Händler*innen ihre langjährigen Läden. Trotzdem bestehen bis heute viele Fachgeschäfte und Dienstleister*innen mit spannenden Werdegängen und auch einigen lustigen Anekdoten. Um euch die Handelsgeschichte der Stadt näher zu bringen, haben wir den interaktiven Stadtrundgang „Hinter den Fassaden“ initiiert. Mehr dazu findet ihr auf den Tafeln in der Storkower Altstadt rund um den Marktplatz oder unter [hinterdenfassaden.de](https://www.hinterdenfassaden.de).
+
 ### Mit Bahn & Rad
 
 Wenn man aus Berlin mit der S-Bahn oder dem Regionalexpress nach Erkner fährt, kann man von dort eine sehr schöne, circa 2 Stunden lange Fahrradtour über Spreeau, Spreenhagen und Markgrafpieske nach Storkow unternehmen.
 
 ### Irrlandia
 
-Der MitMachPark Irrlandia im Storkower Stadtteil Neu-Boston ist mit dem Fahrrad nur fünf Minuten vom Zeltplatz entfernt. Der Park lädt alle Großen und Kleinen mit einem Maislabyrinth, einer Trampolinanlage, einer Wasserbombenwurfanlage (!) und Vielem mehr zum Verirren, Spielen, Klettern, Rutschen, Schaukeln, Hopsen, Bauen und Basteln, Matschen und Werfen ein. Und das Beste: alínæ lumr-Besucher*innen erhalten beim Vorzeigen ihres Festivalbändchens freien Eintritt.
+Der [MitMachPark Irrlandia](http://www.irrlandia.de/) im Storkower Stadtteil Neu-Boston ist mit dem Fahrrad nur fünf Minuten vom Zeltplatz entfernt. Der Park lädt alle Großen und Kleinen mit einem Maislabyrinth, einer Trampolinanlage, einer Wasserbombenwurfanlage (!) und Vielem mehr zum Verirren, Spielen, Klettern, Rutschen, Schaukeln, Hopsen, Bauen und Basteln, Matschen und Werfen ein. Und das Beste: alínæ lumr-Besucher*innen erhalten beim Vorzeigen ihres Festivalbändchens freien Eintritt.
 
 ### Markus’ Freizeit-Tipps
 
