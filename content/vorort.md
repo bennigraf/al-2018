@@ -39,6 +39,7 @@ class: page-vorort page-columns
 - 18. Aufgrund gesetzlicher Bestimmungen müssen Minderjährige ohne Erziehungsberechtigte das Gelände vor 24 Uhr verlassen.
 - 19. Kinder und Jugendliche unter 18 Jahren müssen entweder von Erziehungsberechtigten begleitet werden oder sich von Erziehungsberechtigten eine Teilnahmeerlaubnis bestätigen lassen und mit sich führen.
 - 20. Beim Baden in den Seen achtet bittet auf euch. Baden geschieht auf eigene Gefahr. Ebenso bitten wir euch das Waschen mit Seife dort zu unterlassen und die Badestrände sauber zu hinterlassen.
+- 21. Mit der Teilnahme am alínæ lumr Festival erklärt ihr euch einverstanden, dass Fotos und Videoclips von euch im Rahmen des Festivals aufgenommen und vom Veranstalter und der Presse im Zusammenhang mit der Berichterstattung über das alínæ lumr Festival genutzt werden dürfen.
 
 Wir haben großes Vertrauen in euch Besucher*innen, Helfende und sonstige Beteiligte. Als
 Veranstalter*innen haben wir aber auch für die Sicherheit auf dem Festivalgelände zu sorgen und alle Auflagen der zuständigen Behörden zu erfüllen. Damit das Festival auch in Zukunft stattfinden kann, stehen wir in der Pflicht, die obige Hausordnung durchzusetzen. Wer nach Aufforderung den Weisungen des Sicherheitspersonals nicht Folge leistet, sich der Hausordnung widersetzt bzw. sich, andere oder das Festival gefährdet, wird der Veranstaltungsfläche verwiesen.
