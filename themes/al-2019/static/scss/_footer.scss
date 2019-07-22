@@ -169,6 +169,20 @@ div.partner {
 
     a {
         text-decoration: none;
+        font-family: 'al-regular', sans-serif;
+        color: $color-dark;
+        font-size: 2.8vw;
+        line-height: 2.2vw;
+
+        @include MQ(S) {
+            font-size: 2.3vw;
+        }
+        @include MQ(M) {
+            font-size: 1.3vw;
+        }
+        @include MQ(L) {
+            font-size: calc(#{$max-component-width} * 0.012);
+        }
     }
 
     img {
@@ -192,11 +206,27 @@ div.partner {
         }
     }
 
+    img.bigmium {
+        height: 8vw;
+
+        @include IMQ(M) {
+            height: 10vw;
+        }
+    }
+
     img.flatmium {
         height: 4vw;
 
         @include IMQ(M) {
             height: 7vw;
+        }
+    }
+
+    img.superflat {
+        height: 2.2vw;
+        
+        @include IMQ(M) {
+            height: 3vw;
         }
     }
 
