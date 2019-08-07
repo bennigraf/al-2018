@@ -15,7 +15,9 @@ Für Kinder unter 14 Jahren ist der Eintritt frei (bitte Schüler*innenausweis o
 
 ### Musik
 
-Die Künstler*innen und Bands werden am Freitag, Samstag und Sonntag spielen. Den Zeitplan gibt es im August.
+{{< figure src="/images/al-timetable.jpg" link="/al-timetable.pdf" alt="Timetable" >}}
+
+Die Künstler*innen und Bands werden am Freitag, Samstag und Sonntag spielen. Den Timetable findet ihr [hier](/al-timetable.pdf).
 
 ### Zelten
 
