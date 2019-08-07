@@ -91,7 +91,10 @@ workflows:
   version: 2
   do_build: 
     jobs: 
-      - build
+      - build:
+          filters:
+            branches:
+              only: master
   # scheduled_build:
   #   jobs:
   #     - build
