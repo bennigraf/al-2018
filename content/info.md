@@ -44,9 +44,11 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 
 ## Die Locations
 
-### Festivalbüro
+### Festivalbüro (Am Markt 4)
 
 Herzlich Willkommen in Storkow! Unser Festivalbüro ist eure erste Station – hier könnt ihr euch eure Bändchen und ein Lächeln abholen. Falls ihr an diesem Wochenende etwas verliert oder findet, holt und gebt ihr es am besten hier ab.
+
+Öffnungszeiten: Freitag: 15 – 23 Uhr | Samstag: 12 – 23 Uhr
 
 ### Die Burg
 
@@ -69,6 +71,14 @@ Der Marktplatz ist das Herz und Zentrum des Festivals. Hier spielt sich ein wich
 ### Der Weidendom
 
 Unter der Kuppel eines wunderschönen Weidendoms werden ebenfalls Konzerte stattfinden. Dieser befindet sich im MitMachPark Irrlandia. Um dort hin zu kommen, müsst ihr zwar ein bisschen mehr Fußweg einplanen oder einfach fünf Minuten radeln, dafür lohnt sich der Besuch aber umso mehr!
+
+### Turnhalle
+
+Unsere Altstadt-Turnhalle liegt gleich hinter der Kirche. Hier sind wir einst beim Brennball übers Parkett gesaust, haben uns auf Schwebebalken und über Springböcke gehangelt. Heute gucken wir dort lieber Kino.
+
+### Nettis Speisekammer
+
+Im Storkower Stadtteil Karlslust betreibt Annett Kühn einen süßen, kleinen Bioladen. Hier könnt ihr euch für die kommende Woche oder eure Zeit auf unserem Zeltplatz mit ausgewählten regionalen, fair gehandelten und Bioprodukten eindecken oder/und Musik lauschen.
 
 {{% /page-column %}}
 
