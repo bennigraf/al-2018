@@ -9,7 +9,7 @@ alínæ lumr lädt ein zu einem ereignisreichen Urlaub auf dem Land. Auf der Bur
 
 ### Tickets
 
-Tickets für das alínæ lumr erhaltet ihr ausschließlich über unseren [Shop](/shop). 
+Tickets für das alínæ lumr sowie Karten für einzelne Tage erhaltet ihr ausschließlich über unseren [Shop](/shop). 
 
 Für Kinder unter 14 Jahren ist der Eintritt frei (bitte Schüler*innenausweis oder ähnliches Dokument mitbringen). Alle Tickets für Minderjährige nur mit Erlaubnis der Eltern.
 
