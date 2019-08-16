@@ -17,6 +17,11 @@ Für Kinder unter 14 Jahren ist der Eintritt frei (bitte Schüler*innenausweis o
 
 Die Künstler*innen und Bands werden am Freitag, Samstag und Sonntag spielen. Den Zeitplan gibt es im August.
 
+
+### Rundgänge, Kino, Workshops und mehr
+
+Neben dem musikalischen Programm gibt es am alínæ lumr-Wochenende viele Möglichkeiten zum Erkunden, Entspannen, Mitmachen und Spaß haben. Alle weiteren Aktivitäten, wie Workshops, Kinoprogramm und Führungen findet ihr [hier](https://www.facebook.com/notes/al%C3%ADn%C3%A6-lumr/rundg%C3%A4nge-kino-workshops-und-mehr-2019/1676075722536099/).
+
 ### Zelten
 
 Auch wenn unser Festival in der Stadt stattfindet, könnt ihr bei uns zelten: auf einer Wiese umgeben von Bäumen, ganz wie sich das für ein Festival gehört. Fürs Wohlfühlgefühl gibt es Toiletten und Duschen. Unser Zeltplatz befindet sich circa 5 Minuten Fußweg von der Burg und dem Markplatz entfernt. Das Zelten ist kostenlos, ab Freitagmittag dürft ihr kommen. Eure Autos könnt ihr auf dem Parkplatz neben dem Zeltplatz abstellen. Wohnmobile können mit auf den Parkplatz, jedoch nicht auf den Zeltplatz, genommen werden.
