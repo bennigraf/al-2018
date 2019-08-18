@@ -15,8 +15,6 @@ Für Kinder unter 14 Jahren ist der Eintritt frei (bitte Schüler*innenausweis o
 
 ### Musik
 
-{{< figure src="/images/al-timetable.jpg" link="/al-timetable.pdf" alt="Timetable" >}}
-
 Die Künstler*innen und Bands werden am Freitag, Samstag und Sonntag spielen. Den Timetable findet ihr [hier](/al-timetable.pdf).
 
 ### Zelten
@@ -40,8 +38,6 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 {{% page-column %}}
 
 ## Die Locations
-
-{{< figure src="/images/al-map+legende.png" target="_blank" link="/al-map+legende.pdf" alt="Map" >}}
 
 [Hier](/al-map+legende.pdf) findet ihr einen Lageplan für unsere Orte.
 
