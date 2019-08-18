@@ -17,7 +17,6 @@ Für Kinder unter 14 Jahren ist der Eintritt frei (bitte Schüler*innenausweis o
 
 Die Künstler*innen und Bands werden am Freitag, Samstag und Sonntag spielen. Den Timetable findet ihr [hier](/al-timetable.pdf).
 
-
 ### Rundgänge, Kino, Workshops und mehr
 
 Neben dem musikalischen Programm gibt es am alínæ lumr-Wochenende viele Möglichkeiten zum Erkunden, Entspannen, Mitmachen und Spaß haben. Alle weiteren Aktivitäten, wie Workshops, Kinoprogramm und Führungen findet ihr [hier](https://www.facebook.com/notes/al%C3%ADn%C3%A6-lumr/rundg%C3%A4nge-kino-workshops-und-mehr-2019/1676075722536099/).
@@ -44,13 +43,9 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 
 ## Die Locations
 
-
 [Hier](/al-karte.pdf) findet ihr einen Lageplan für unsere Orte.
 
-
-
 ### Festivalbüro (Am Markt 4)
-
 
 Herzlich Willkommen in Storkow! Unser Festivalbüro ist eure erste Station – hier könnt ihr euch eure Bändchen und ein Lächeln abholen. Falls ihr an diesem Wochenende etwas verliert oder findet, holt und gebt ihr es am besten hier ab.
 
