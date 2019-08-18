@@ -39,7 +39,7 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 
 ## Die Locations
 
-[Hier](/al-map+legende.pdf) findet ihr einen Lageplan für unsere Orte.
+[Hier](/al-karte.pdf) findet ihr einen Lageplan für unsere Orte.
 
 ### Festivalbüro
 
