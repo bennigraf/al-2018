@@ -17,3 +17,7 @@ $color-turquoise: #1ac6bb;
 %main-container {
     @include main-container(96vw, 0.96)
 }
+
+strong {
+    font-weight: bold;
+}
