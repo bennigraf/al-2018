@@ -9,15 +9,17 @@ alínæ lumr lädt ein zu einem ereignisreichen Urlaub auf dem Land. Auf der Bur
 
 ### Tickets
 
-Tickets für das alínæ lumr erhaltet ihr ausschließlich über unseren [Shop](/shop). 
+Tickets für das alínæ lumr sowie Karten für einzelne Tage erhaltet ihr ausschließlich über unseren [Shop](/shop). 
 
 Für Kinder unter 14 Jahren ist der Eintritt frei (bitte Schüler*innenausweis oder ähnliches Dokument mitbringen). Alle Tickets für Minderjährige nur mit Erlaubnis der Eltern.
 
 ### Musik
 
-{{< figure src="/images/al-timetable.jpg" link="/al-timetable.pdf" alt="Timetable" >}}
-
 Die Künstler*innen und Bands werden am Freitag, Samstag und Sonntag spielen. Den Timetable findet ihr [hier](/al-timetable.pdf).
+
+### Rundgänge, Kino, Workshops und mehr
+
+Neben dem musikalischen Programm gibt es am alínæ lumr-Wochenende viele Möglichkeiten zum Erkunden, Entspannen, Mitmachen und Spaß haben. Alle weiteren Aktivitäten, wie Workshops, Kinoprogramm und Führungen findet ihr [hier](https://www.facebook.com/notes/al%C3%ADn%C3%A6-lumr/rundg%C3%A4nge-kino-workshops-und-mehr-2019/1676075722536099/).
 
 ### Zelten
 
@@ -41,13 +43,13 @@ Rund 10 (Lauf-) Minuten vom Zeltplatz findet ihr den Storkower See, genauer gesa
 
 ## Die Locations
 
-{{< figure src="/images/al-map+legende.png" target="_blank" link="/al-map+legende.pdf" alt="Map" >}}
+[Hier](/al-karte.pdf) findet ihr einen Lageplan für unsere Orte.
 
-[Hier](/al-map+legende.pdf) findet ihr einen Lageplan für unsere Orte.
-
-### Festivalbüro
+### Festivalbüro (Am Markt 4)
 
 Herzlich Willkommen in Storkow! Unser Festivalbüro ist eure erste Station – hier könnt ihr euch eure Bändchen und ein Lächeln abholen. Falls ihr an diesem Wochenende etwas verliert oder findet, holt und gebt ihr es am besten hier ab.
+
+Öffnungszeiten: Freitag: 15 – 23 Uhr | Samstag: 12 – 23 Uhr
 
 ### Die Burg
 
@@ -70,6 +72,14 @@ Der Marktplatz ist das Herz und Zentrum des Festivals. Hier spielt sich ein wich
 ### Der Weidendom
 
 Unter der Kuppel eines wunderschönen Weidendoms werden ebenfalls Konzerte stattfinden. Dieser befindet sich im MitMachPark Irrlandia. Um dort hin zu kommen, müsst ihr zwar ein bisschen mehr Fußweg einplanen oder einfach fünf Minuten radeln, dafür lohnt sich der Besuch aber umso mehr!
+
+### Turnhalle
+
+Unsere Altstadt-Turnhalle liegt gleich hinter der Kirche. Hier sind wir einst beim Brennball übers Parkett gesaust, haben uns auf Schwebebalken und über Springböcke gehangelt. Heute gucken wir dort lieber Kino.
+
+### Nettis Speisekammer
+
+Im Storkower Stadtteil Karlslust betreibt Annett Kühn einen süßen, kleinen Bioladen. Hier könnt ihr euch für die kommende Woche oder eure Zeit auf unserem Zeltplatz mit ausgewählten regionalen, fair gehandelten und Bioprodukten eindecken oder/und Musik lauschen.
 
 {{% /page-column %}}
 
