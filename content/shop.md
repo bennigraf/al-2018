@@ -5,9 +5,7 @@ scripts:
     - "shop-fixes.js"
 ---
 
-<strong>Ihr bekommt während des Festivals Karten an der Abendkasse im Festivalbüro (Am Markt 4 in Storkow).</strong> Das Festivalbüro ist am Freitag von 15 bis 23 Uhr sowie am Samstag von 12 bis 23 Uhr geöffnet.
-
-[AGB, Widerrufsbelehrung, Datenschutz](https://shop.alinaelumr.de/alinaelumr/2019/page/agb-datenschutz/) – [FAQ](https://shop.alinaelumr.de/alinaelumr/2019/page/faq/)
+[AGB, Widerrufsbelehrung, Datenschutz](https://shop.alinaelumr.de/alinaelumr/2020/page/agb-datenschutz/) – [FAQ](https://shop.alinaelumr.de/alinaelumr/2020/page/faq/)
 
 <pretix-widget event="https://shop.alinaelumr.de/alinaelumr/2020/"></pretix-widget>
 
