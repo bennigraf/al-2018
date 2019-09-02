@@ -9,8 +9,6 @@ scripts:
 
 <pretix-widget event="https://shop.alinaelumr.de/alinaelumr/2020/"></pretix-widget>
 
-<pretix-widget event="https://shop.alinaelumr.de/alinaelumr/2019/"></pretix-widget>
-
 <noscript>
    <div class="pretix-widget">
         <div class="pretix-widget-info-message">
