@@ -53,6 +53,17 @@ gulp.task("scss2019", function () {
         // }))
         .pipe(gulp.dest("themes/al-2019/static/css"))
 });
+gulp.task("scss2020", function () {
+    return gulp.src("themes/al-2020-prev/static/scss/**/*.scss")
+        .pipe(plumber())
+        .pipe(sass({
+            outputStyle : "compressed"
+        }))
+        // .pipe(autoprefixer({
+        //     browsers : ["last 20 versions"]
+        // }))
+        .pipe(gulp.dest("themes/al-2020-prev/static/css"))
+});
 
 gulp.task("getBandsHash", function() {
     return request({
@@ -147,6 +158,6 @@ gulp.task("watch2019", function() {
     return gulp.watch("themes/al-2019/static/scss/**/*", gulp.parallel("scss2019"))
 })
 gulp.task("watch", gulp.parallel("watch2018", "watch2019"));
-gulp.task("scss", gulp.parallel("scss2018", "scss2019"));
+gulp.task("scss", gulp.parallel("scss2018", "scss2019", "scss2020"));
 
 gulp.task('default', taskListing);
