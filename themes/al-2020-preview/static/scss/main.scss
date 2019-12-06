@@ -1,0 +1,31 @@
+@import 'reset';
+@import 'responsive';
+@import 'defaults';
+@import 'fonts';
+
+body {
+    background-color: $color-beige;
+
+    &:after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 100vh;
+        width: 100vw;
+        background: url(../images/al-bg-low-2019.jpg) center center;
+        background-size: cover;
+
+        @include MQ(M) {
+            background-image: url(../images/al-bg-high-2019.jpg);
+        }
+    }
+}
+
+@import 'navigation+logo';
+@import 'footer';
+@import 'page-bands';
+@import 'page-columns';
+@import 'page-full';
+@import 'pretix';

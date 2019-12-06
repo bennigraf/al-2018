@@ -1,0 +1,19 @@
+{{/*
+Maybe this could be replaced with something more sophisticated (to also be able to do
+i.e. image processing) like this:
+
+{{ $sgp := ($.Site.GetPage "page" "bands/bands.md") }}
+{{ printf "%#v" ($sgp) }}
+*/}}
+
+{{ $hasDescription := ne nil .image }}
+<div class="a-band {{ if $hasDescription }}has-description{{ end }}">
+    <img src="{{ .image.data.full_url }}"
+         alt="{{ .name }}">
+    {{ if $hasDescription }}
+        <a href="{{ .link }}" title="{{ .name }}" class="description" target="_blank">
+            <img src="{{ .image_text.data.full_url }}"
+                alt="Beschreibung für {{ .name }}">
+        </a>
+    {{ end }}
+</div>

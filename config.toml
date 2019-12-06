@@ -1,15 +1,15 @@
 baseURL = "https://alinaelumr.de/"
 languageCode = "de-de"
-title = "alínæ lumr Festival 2018"
+title = "alínæ lumr Festival 2020"
 
-theme = "al-2019"
+theme = "al-2020-preview"
 
 # doesn't work yet (hugo bug, see https://github.com/SiamKreative/siamkreative.com/issues/20)
 # leaving this here in case someone fixes this at some point...
 ignoreFiles = ['\\.scss$']
 
 [params]
-    description = "Zum fünften Mal lädt das alínæ lumr an einem Augustwochenende zu einem ereignisreichen Urlaub auf dem Land. Auf der Burg, am Marktplatz, den Hinterhöfen, der Altstadtkirche, auf versteckten Wiesen und am See wartet unser sorgfältig kuratiertes Musikprogramm, Workshops, Theater, Lesungen und die charmante Altstadt Storkow auf euch. Wir möchten die Stadt öffnen und Orte des Zusammenkommens schaffen, auch um ein klares Zeichen für positiven Austausch und Willkommenskultur in der Region zu setzen."
+    description = "Zum sechsten Mal lädt das alínæ lumr an einem Augustwochenende zu einem ereignisreichen Urlaub auf dem Land. Auf der Burg, am Marktplatz, den Hinterhöfen, der Altstadtkirche, auf versteckten Wiesen und am See wartet unser sorgfältig kuratiertes Musikprogramm, Workshops, Theater, Lesungen und die charmante Altstadt Storkow auf euch. Wir möchten die Stadt öffnen und Orte des Zusammenkommens schaffen, auch um ein klares Zeichen für positiven Austausch und Willkommenskultur in der Region zu setzen."
 
 [blackfriday]
     hrefTargetBlank = true

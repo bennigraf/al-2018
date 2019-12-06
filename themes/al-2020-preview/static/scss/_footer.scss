@@ -1,0 +1,260 @@
+nav.footer, div.social {
+    width: 98vw;
+
+    @include MQ(M) {
+        width: 94vw;
+        max-width: calc(#{$max-component-width} * 0.94);
+    }
+    margin: auto;
+
+    clear: both;
+}
+
+// spacing between elements
+nav.footer { 
+    // padding-top instead of margin to make sure it works after floated elements
+    padding-top: 2vw;
+    margin-bottom: 30px;
+
+    @include MQ(L) {
+        padding-top: calc(#{$max-component-width} * 0.02);
+    }
+}
+#mc_embed_signup { 
+    margin-bottom: 30px; 
+}
+div.social { 
+    margin-bottom: 35px; 
+}
+
+
+nav.footer {
+    text-align: center;
+    ul li {
+        display: inline;
+        
+        a {
+            text-decoration: none;
+
+            img {
+                width: 52vw;
+                // width: 27%;
+
+                @include MQ(M) {
+                    width: 27vw;
+                    max-width: calc(#{$max-component-width} * 0.27);
+                }
+            }
+        }
+        
+        a.active, a:hover {
+            img {
+                display: none;
+            }
+            img.active {
+                display: inline !important;
+            }
+        }
+    }
+}
+
+// The mailchimp form
+#mc_embed_signup {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 280px;
+    max-width: 280px;
+
+    div {
+        display: inline;
+    }
+
+    // first the positioning...
+    #mc_embed_signup_scroll {
+        display: flex;
+        
+        // the text input
+        div.mc-field-group {
+            flex-grow: 1;
+
+            input {
+                width: calc(100% - 12px);
+            }
+        }
+    }
+
+    // then the style
+    input {
+        border: none;
+        font-size: 22px;
+        height: 17px;
+        line-height: 23px;
+        margin: 0;
+        padding: 6px;
+        text-align: center;
+
+        &[type="email"] {
+            @include font-al-regular;
+            background-color: $color-turquoise;
+            color: $color-white;
+            font-weight: 100;
+            font-size: 18px;
+
+            &::placeholder {
+                color: $color-white;
+            }
+        }
+
+        // submit...
+        &.content-newsletter-button {
+            background-color: $color-white;
+        }
+    }
+}
+
+div.social {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        padding: 0 2.5vw;
+
+        img {
+            width: 13vw;
+        }
+
+        @include MQ(M) {
+            padding: 0 .8vw;
+            img {
+                width: 4vw;
+            }
+        }
+        @include MQ(L) {
+            padding: 0 calc(#{$max-component-width} * 0.008);
+            img {
+                width: calc(#{$max-component-width} * 0.04);
+            }
+        }
+
+        &:hover {
+            img {
+                display: none;
+            }
+            img.active {
+                display: inline !important;
+            }
+        }
+    }
+}
+
+div.partner {
+    // width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-white;
+    padding: 0 10vw;
+
+    @include IMQ(M) {
+        padding: 0 5vw;
+    }
+    @include MQ(L) {
+        padding: 0 calc(#{$max-component-width} * 0.1);
+    }
+
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        font-family: 'al-regular', sans-serif;
+        color: $color-dark;
+        font-size: 2.8vw;
+        line-height: 2.2vw;
+
+        @include MQ(S) {
+            font-size: 2.3vw;
+        }
+        @include MQ(M) {
+            font-size: 1.3vw;
+        }
+        @include MQ(L) {
+            font-size: calc(#{$max-component-width} * 0.012);
+        }
+    }
+
+    img {
+        height: 10vw;
+        margin: 0 3vw;
+
+        @include IMQ(M) {
+            height: 16vw;
+        }
+
+        @include MQ(L) {
+            height: calc(#{$max-component-width} * 0.1);
+            margin: 0 calc(#{$max-component-width} * 0.03);
+        }
+    }
+    img.medium {
+        height: 6vw;
+
+        @include IMQ(M) {
+            height: 8vw;
+        }
+    }
+
+    img.bigmium {
+        height: 8vw;
+
+        @include IMQ(M) {
+            height: 10vw;
+        }
+    }
+
+    img.flatmium {
+        height: 4vw;
+
+        @include IMQ(M) {
+            height: 7vw;
+        }
+    }
+
+    img.superflat {
+        height: 2.2vw;
+        
+        @include IMQ(M) {
+            height: 3vw;
+        }
+    }
+
+    &.medien {
+        padding-bottom: 0;
+
+        img {
+            margin: 3vw;
+            height: 5vw;
+
+            @include IMQ(M) {
+                height: 7vw;
+            }
+        }
+        img.medium {
+            height: 3vw;
+
+            @include IMQ(M) {
+                height: 4vw;
+            }
+        }
+
+        img.flat {
+            height: 2vw;
+            
+            @include IMQ(M) {
+                height: 2.5vw;
+            }
+        }
+    }
+}

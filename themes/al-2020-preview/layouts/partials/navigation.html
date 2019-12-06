@@ -1,0 +1,122 @@
+<nav>
+    <ul>
+        <li>
+            {{- $linkURL := "/" }}
+            <a href="{{ $linkURL | relURL }}" title="Programm"
+                class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                <img src="{{ "/images/navigation/al-button-programm-inaktiv.svg" | relURL }}" 
+                        alt="Programm" />
+                <img src="{{ "/images/navigation/al-button-programm-aktiv.svg" | relURL }}" 
+                        class="active" style="display: none;" />
+            </a>
+        </li>
+
+        <li>
+            {{- $linkURL := "/shop/" }}
+            <a href="{{ $linkURL | relURL }}" title="Shop"
+                class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                <img src="{{ "/images/navigation/al-button-shop-inaktiv.svg" | relURL }}" 
+                        alt="Shop" />
+                <img src="{{ "/images/navigation/al-button-shop-aktiv.svg" | relURL }}" 
+                        class="active" style="display: none;" />
+            </a>
+        </li>
+
+        <li>
+            {{- $linkURL := "/info/" -}}
+            <a href="{{ $linkURL | relURL }}" title="Info"
+                class="{{ if eq .Page.URL ($linkURL | relURL | printf "%#s") }}active{{ end }}">
+                <img src="{{ "/images/navigation/al-button-info-inaktiv.svg" | relURL }}" 
+                    alt="Info" />
+                <img src="{{ "/images/navigation/al-button-info-aktiv.svg" | relURL }}" 
+                    class="active" style="display: none;" />
+            </a>
+            <ul class="inactive">
+                <li>
+                    <a href="{{ $linkURL | relURL}}#das-festival" title="Festival">
+                        <img src="{{ "/images/navigation/al-button-festival-inaktiv.svg" | relURL }}" 
+                             alt="Festival" />
+                        <img src="{{ "/images/navigation/al-button-festival-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ $linkURL | relURL}}#die-locations" title="Locations">
+                        <img src="{{ "/images/navigation/al-button-locations-inaktiv.svg" | relURL }}" 
+                             alt="Locations" />
+                        <img src="{{ "/images/navigation/al-button-locations-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ $linkURL | relURL}}#anfahrt" title="Anfahrt">
+                        <img src="{{ "/images/navigation/al-button-anfahrt-inaktiv.svg" | relURL }}" 
+                             alt="Anfahrt" />
+                        <img src="{{ "/images/navigation/al-button-anfahrt-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "/vorort" | relURL}}" title="Vor Ort">
+                        <img src="{{ "/images/navigation/al-button-vorort-inaktiv.svg" | relURL }}" 
+                             alt="Vor Ort" />
+                        <img src="{{ "/images/navigation/al-button-vorort-aktiv.svg" | relURL }}" 
+                             class="active" style="display: none;" />
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            {{- $linkURL := "#" -}}
+            <a href="{{ $linkURL | relURL }}" title="Rückblick">
+                <img src="{{ "/images/navigation/al-button-rueckblick-inaktiv.svg" | relURL }}" 
+                    alt="Rückblick" />
+                <img src="{{ "/images/navigation/al-button-rueckblick-aktiv.svg" | relURL }}" 
+                    class="active" style="display: none;" />
+            </a>
+            <ul class="inactive">
+                <!-- <li>
+                    <a href="{{ "/2019/bands/" | relURL}}" title="2019">
+                        <img src="{{ "/images/navigation/al-button-2019-inaktiv.svg" | relURL }}" 
+                                alt="2019" />
+                        <img src="{{ "/images/navigation/al-button-2019-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li> -->
+                <li>
+                    <a href="{{ "/2018/bands/" | relURL}}" title="2018">
+                        <img src="{{ "/images/navigation/al-button-2018-inaktiv.svg" | relURL }}" 
+                                alt="2018" />
+                        <img src="{{ "/images/navigation/al-button-2018-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "/2017/" | relURL}}" title="2017">
+                        <img src="{{ "/images/navigation/al-button-2017-inaktiv.svg" | relURL }}" 
+                                alt="2017" />
+                        <img src="{{ "/images/navigation/al-button-2017-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "/2016/" | relURL}}" title="2016">
+                        <img src="{{ "/images/navigation/al-button-2016-inaktiv.svg" | relURL }}" 
+                                alt="2016" />
+                        <img src="{{ "/images/navigation/al-button-2016-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ "/2015/" | relURL}}" title="2015">
+                        <img src="{{ "/images/navigation/al-button-2015-inaktiv.svg" | relURL }}" 
+                                alt="2015" />
+                        <img src="{{ "/images/navigation/al-button-2015-aktiv.svg" | relURL }}" 
+                                class="active" style="display: none;" />
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
