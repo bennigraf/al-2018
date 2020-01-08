@@ -5,7 +5,7 @@ scripts:
     - "shop-fixes.js"
 ---
 
-[AGB, Widerrufsbelehrung, Datenschutz](https://shop.alinaelumr.de/alinaelumr/2020/page/agb-datenschutz/) – [FAQ](https://shop.alinaelumr.de/alinaelumr/2020/page/faq/)
+[AGB, Widerrufsbelehrung, Datenschutz](https://shop.alinaelumr.de/alinaelumr/2020/page/agb-widerruf-datenschutz/?) – [FAQ](https://shop.alinaelumr.de/alinaelumr/2020/page/faq/)
 
 <pretix-widget event="https://shop.alinaelumr.de/alinaelumr/2020/"></pretix-widget>
 
