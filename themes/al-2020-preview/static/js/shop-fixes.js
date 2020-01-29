@@ -29,6 +29,7 @@ prefixScript('https://shop.alinaelumr.de/widget/v1.de-informal.js', function() {
 function onWidgetLoad(widget) {
     console.log('fix useIframe');
     widget.__vue__.$root._computedWatchers.useIframe.get = function() { return false };
+  
     console.log(widget.__vue__.$root.useIframe);
 
     $('.pretix-widget form').each(function(index, item) {
