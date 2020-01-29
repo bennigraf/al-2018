@@ -18,7 +18,9 @@ prefixScript('https://shop.alinaelumr.de/widget/v1.de-informal.js', function() {
                 console.log('timing out');
             }
         } else {
-            onWidgetLoad(widgets[0]);
+            for (var i = 0; i < widgets.length; i++) { 
+              onWidgetLoad(widgets[i]);
+            }
         }
     };
     waitForWidgetLoader();
