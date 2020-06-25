@@ -89,29 +89,29 @@ jobs:
 
 workflows:
   version: 2
-  do_build: 
-    jobs: 
-      - build
-  scheduled_build:
-    jobs:
-      - build
-    triggers:
-      - schedule:
-          cron: "0,15,30,45 0,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 * * *"
-          filters:
-            branches:
-              only:
-                - master
-  restart_hugo:
-    jobs:
-      - restart_hugo
-    triggers:
-      - schedule:
-          cron: "5,20,35,50 0,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 * * *"
-          filters:
-            branches:
-              only:
-                - master
+  # do_build:
+  #   jobs:
+  #     - build
+  # scheduled_build:
+  #   jobs:
+  #     - build
+  #   triggers:
+  #     - schedule:
+  #         cron: "0,15,30,45 0,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 * * *"
+  #         filters:
+  #           branches:
+  #             only:
+  #               - master
+  # restart_hugo:
+  #   jobs:
+  #     - restart_hugo
+  #   triggers:
+  #     - schedule:
+  #         cron: "5,20,35,50 0,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 * * *"
+  #         filters:
+  #           branches:
+  #             only:
+  #               - master
 
   # manual_build:
   #   jobs:
