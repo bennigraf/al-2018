@@ -1,6 +1,6 @@
-baseURL = "https://alinaelumr.de/"
+baseURL = "https://2019.alinaelumr.de/"
 languageCode = "de-de"
-title = "alínæ lumr Festival 2018"
+title = "alínæ lumr Festival 2019"
 
 theme = "al-2019"
 
@@ -13,3 +13,7 @@ ignoreFiles = ['\\.scss$']
 
 [blackfriday]
     hrefTargetBlank = true
+
+[markup.goldmark.renderer]
+    unsafe= true
+
